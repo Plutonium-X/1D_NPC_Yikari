@@ -1,0 +1,147 @@
+/* ENGLISH TRANSLATION FOR YIKARI; main, leaving dialogue */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPC
+
+@1 = ~(There is a monk standing before you.)~
+
+@2 = ~Hail, friend. Is there aught I can do for you?~
+
+@3 = ~Who are you?~
+
+@4 = ~Another fanatic come to convert me to his ridiculous beliefs? Begone, monk!~
+
+@5 = ~(The monk says nothing but continues to stare at you.)~
+
+@6 = ~Hi, I'm <CHARNAME>. Who are you?~
+
+@7 = ~Cat got your tongue, monk?~
+
+@8 = ~Okay then. I'll just, uh, be going now. See you around...~
+
+@9 = ~(The monk displays the inscription on his Ninja-To. It reads "Yikari".)~
+
+@10 = ~You don't talk much, do you, Yikari?~
+
+@11 = ~What can I do for you, then, Yikari?~
+
+@12 = ~Well, it was nice meeting you, Yikari, but I have things to do. Slay dragons, that kind of thing.~
+
+@13 = ~(The monk shrugs. He gestures for a few moments, but you can't work out what he's trying to communicate, and he gives up.)~
+
+@14 = ~What can I do for you, then?~
+
+@15 = ~I'm sorry, I didn't catch your name.~
+
+@16 = ~I don't know sign language. Now get lost.~
+
+@17 = ~(The monk Yikari points to the Guarded Compound in the East part of the Temple District. Then he points to you, and to his Ninja-To.)~
+
+@18 = ~You want me to go over there? Into that huge building, which is doubtless heavily guarded?~
+
+@19 = ~Whatever your business there, it has nothing to do with me. I take my leave.~
+
+@20 = ~Hmm... Let me guess. This wouldn't have anything to do with a certain sword, would it now? Just a wild stab in the dark...~
+
+@21 = ~(The monk nods and flashes you a wry smile.)~
+
+@22 = ~Okay, let's go kick some ass!~
+
+@23 = ~This had better be worth my while, Yikari.~
+
+@24 = ~I can't go running on every errand I'm offered - don't you know who I am? Some other time, perhaps.~
+
+// Now he can talk
+
+// Biography:
+@1000 = ~YIKARI is a monk from the Order of the Green Dragon in Kara-Tur. He was sent by his abbot on a quest of recovering the katana Celestial Fury from a kensai named Koshi. He took a vow of silence until he saw the deed through. He has agreed to travel with you for a while, but he must eventually take the sword and return to Kara-Tur. Until that time, however, he lends his skill with a katana and in unarmed combat to your cause.~
+
+@25 = ~Excuse me, is that sword... Celestial Fury? And you would be <CHARNAME>?~
+
+@26 = ~Yes. Who are you and what do you want?~
+
+@27 = ~Mabye... Who are you?~
+
+@28 = ~<CHARNAME>? Sorry, not me. And this is... another katana. Bye then.~
+
+@29 = ~My name is Yikari, a monk of the order of the Green Dragon, sent by my most reverend abbot on a mission of great importance.~
+
+@30 = ~Some time ago a thieving kensai by name of Koshi took from our monastery that most hallowed relic, Celestial Fury.~
+
+@31 = ~As soon as this was discovered, my abbot chose me to retrieve the sword. I swore to uphold purest silence until I had found it to focus my mind upon my task.~ 
+
+@32 = ~I have spent months searching for the man, and had finally tracked him to Athkatla.~
+
+@33 = ~Now I ask you: let me fulfil my function here and have the sword. Treasure bought in blood is as cheap as the very dust we walk upon.~
+
+@34 = ~Let's talk about this. I'm sure we can work something out.~
+
+@35 = ~I give Celestial Fury gladly. Take it now and return to Kara-Tur.~
+
+@36 = ~You shall receive this sword, blade first! Have at you!~
+
+@37 = ~Good, I should be glad if we can come to an agreement.~
+
+@38 = ~I should like to let you keep the sword, but I have need of it. May I not borrow it until I have dealt with the Exile Irenicus?~
+
+@39 = ~Have I not more right to this sword than anyone, since victory in battle is the oldest established form of property?~
+
+@40 = ~If both of us want to keep the sword, might we not join together for a time and share it?~
+
+@41 = ~If I give this sword up to you, you must recompense me.~
+
+@42 = ~I've changed my mind. You have the sword, and leave.~
+
+@43 = ~Let us agree to disagree. Now die!~
+
+@44 = ~Hmm... I would have to supervise you in order that I could take it from you once your task is done. Shall we travel together for a time? I should prefer it if I kept Celestial Fury myself.~
+
+@45 = ~I can't have you abandon me, Yikari. You may use your own blade if you wish.~
+
+@46 = ~Fine. Take the sword and join my group.~
+
+@47 = ~Actually I don't have room in my party right now.~
+
+@48 = ~Let us not travel together. Take Celestial Fury and leave my sight!~
+
+@49 = ~If 'twere my sword I might let you keep it, but that is not under my control. I have been sent and must return with Celestial Fury.~
+
+@50 = ~My Order will reward you with gold if required.~
+
+@51 = ~Damn your trinkets! This sword is rightfully mine!~
+
+@52 = ~I am prepared to accept your gold in exchange for Celestial Fury.~
+
+@53 = ~I have a better idea - why don't you join with me then we can both have the sword?~
+
+@54 = ~I've changed my mind. You have the sword.~
+
+@55 = ~So be it! I shall return triumphant!~
+
+@56 = ~My thanks! I take my leave.~
+
+//---------------------------------------SDNPCP
+
+@57 = ~(Yikari raises one eyebrow and cocks his head to the side.)~
+
+@58 = ~Wait for me here awhile, Yikari.~
+
+@59 = ~Yikari, go back to the Temple District and I'll meet with you later.~
+
+@60 = ~Get in formation, Yikari.~
+
+@61 = ~I am oath-bound to take Celestial Fury back to my monastery.~
+
+@62 = ~I give Celestial Fury gladly. Take it now and return to Kara-Tur.~
+
+@63 = ~I yet have need of you by my side, Yikari. Will you not stay with me awhile?~
+
+@64 = ~Yikari, go back to the Temple District and I'll meet with you later.~
+
+@65 = ~Take that sword anywhere and I shall cut you down!~
+
+@66 = ~I am sorry <CHARNAME>. I have delayed too long.~ 
+
+@67 = ~Argh! You have filched Celestial Fury away from under my nose! You deceiving monster, <CHARNAME>!~
+
+@68 = ~Greetings, <CHARNAME>. Shall we move off together? Or perhaps you are done with me and I may journey homewards?~

@@ -1,0 +1,66 @@
+IF
+	!InParty(Myself)
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	InParty(Myself)
+	Global("SDNPCQuest","GLOBAL",1)
+	OR(14)
+		PartyHasItem("c2sw1h02")
+		HasItemEquiped("c2sw1h02",Player1)
+		HasItemEquiped("c2sw1h02",Player2)
+		HasItemEquiped("c2sw1h02",Player3)
+		HasItemEquiped("c2sw1h02",Player4)
+		HasItemEquiped("c2sw1h02",Player5)
+		HasItemEquiped("c2sw1h02",Player6)
+		PartyHasItem("sw1h51")
+		HasItemEquiped("sw1h51",Player1)
+		HasItemEquiped("sw1h51",Player2)
+		HasItemEquiped("sw1h51",Player3)
+		HasItemEquiped("sw1h51",Player4)
+		HasItemEquiped("sw1h51",Player5)
+		HasItemEquiped("sw1h51",Player6)
+		CombatCounter(0)
+THEN
+	RESPONSE #100
+		TakeItemReplace("sdnpccl2","sdnpcclk",Myself)
+		SetGlobal("SDNPCQuest","GLOBAL",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("KickedOut","LOCALS",0)
+	!InParty(Myself)
+	Global("SDNPCQuest","GLOBAL",1)
+	HasItemEquiped("sdnpcclk",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("sdnpcclk")
+END
+
+IF
+	Global("SDNPCSummoned","GLOBAL",1)
+	OR(2)
+	Global("SDNPCQuest","GLOBAL",4)
+	Global("SDNPCQuest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		GiveItemCreate("sdnpcsw3",Myself,1,0,0)
+		SetGlobal("SDNPCSummoned","GLOBAL",2)
+
+END
+
+IF
+	Allegiance(LastHitter(Myself),GOODCUTOFF)
+	Allegiance(LastAttackerOf(Myself),GOODCUTOFF)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END

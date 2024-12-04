@@ -1,0 +1,802 @@
+/* YIKARI BANTER ENGLISH TRANSLATION */
+/* VERSION 1.5 */
+/* 260 strings*/
+
+// PC_0
+
+@1 = ~Tell me, <CHARNAME>, whom do you serve?~
+
+@2 = ~I follow my deity in the service of righteousness.~
+
+@3 = ~I place my faith in the Morninglord.~
+
+@4 = ~I place my faith in Helm.~
+
+@5 = ~I place my faith in Talos.~
+
+@6 = ~I place my faith in the heavens.~
+
+@7 = ~It is my duty to protect Nature and the Balance.~
+
+@8 = ~Serve? I just try to help people.~
+
+@9 = ~Whoever pays the most, of course!~
+
+@10 = ~I serve no one but myself.~
+
+@11 = ~We are but the pawns of Tiax. He rules all!~
+
+// PC_good
+
+@12 = ~That's all very well, but you are but one and the world is wide.~
+
+@13 = ~I must do whatever I can. I can't just walk by those in need, Yikari.~
+
+@14 = ~So what alternative is there?~
+
+@15 = ~How can you be so callous, Yikari?~
+
+// PC_good1
+
+@16 = ~As you wish. I hope, however, you do not expect thanks for your pains. This is not a fantasy world, <CHARNAME>.~
+
+// PC_good2
+
+@17 = ~Small acts of kindness are but breaths in the wind. 'Tis better to seek inner peace though meditation and ritual.~
+
+// PC_god
+
+@18 = ~Hmm... yet you yourself have divine blood, yes? Why then do you worship one like to yourself?~
+
+@19 = ~I felt a calling and was accepted. I am nonetheless mortal, Yikari.~
+
+@20 = ~My destiny is uncertain. Perhaps the gods help me out of curiosity or benevolence.~
+
+// PC_god1
+
+@21 = ~Strange - I doubt I should lend divine favour to a Child of Murder, but I forget: gods don't need reasons.~
+
+// PC_nature
+
+@22 = ~These concepts intrigue me. Will you tell me more of them?~
+
+@23 = ~Nature is the force governing all living things. Yet Nature is more than the sum of its parts, greater than anything living, whether bird or bush. It is neither benevolent nor cruel. We are all part of Nature, and we druids serve It.~
+
+@24 = ~Another time, perhaps.~
+
+// PC_nature1
+
+@25 = ~This sounds similar to "karma" in some ways. I find some of your customs... strange however. Yet this is only to be expected: you are foreigners after all.~
+
+// PC_gold
+
+@26 = ~Gold makes a poor servant and a jealous master, <CHARNAME>. You should pay only so much heed to things of material worth. Inner peace is better found through meditation and ritual.~
+
+@27 = ~(Let it go)~
+
+@28 = ~Stuff that inner piece up your ass, monk!~
+
+// PC_teach
+
+@29 = ~It seems to me you would benefit from more order in your life. When we have dealt with this mage, perhaps you might like to accompany me to my monastery? You could learn an untold amount about yourself and the very fabric of being.~
+
+@30 = ~Accompany you to Kara-Tur? My home is here on the Sword Coast.~
+
+@31 = ~Irenicus is the present worry. I shall think on your offer though.~
+
+// PC_teach1
+
+@32 = ~I respect your wishes of course, <CHARNAME>.~
+
+// PC_tiax
+
+@33 = ~Does he now? Does he indeed? I shall, ahem, bother you no further.~
+
+// PC_good3
+
+@261 = ~Tell me, <CHARNAME>, why do you work so hard for others' benefit?~
+
+@262 = ~Helping others in the only fulfillment I have found in my travels.~
+
+@263 = ~If you help others, you can expect them to return the favour!~
+
+@264 = ~Out of the goodness of my heart.~
+
+// PC_good4
+
+@265 = ~Ah, so your motives are not entirely selfless?~
+
+@266 = ~I suppose nothing is entirely selfless, Yikari.~
+
+@267 = ~Everything is give and take in this world.~
+
+@268 = ~You don't understand! I just help others for their own good.~
+
+// PC_good5
+
+@269 = ~Truly you are selfless? Are you not aware of any ulterior motives?~
+
+@270 = ~Well, perhaps a little.~
+
+@271 = ~Absolutely not.~
+
+// PC_good6
+
+@272 = ~Now I begin to understand. It is ultimately for self-advancement that you strive to be a hero.~
+
+@273 = ~Nothing material you covet is worth half as much as the peace brought about by contentment and self-confidence.~
+
+// PC_good7
+
+@274 = ~Remarkable. If I may say so, it seems more likely you are hiding your inner motives from me... or from yourself.~
+
+// PC_god2
+
+@275 = ~<CHARNAME>, will you try to explain Religion to me?~
+
+@276 = ~Religion? It is too huge a thing to explain so quickly.~
+
+@277 = ~Simply put, people believe in the gods in hope of divine favour.~
+
+// PC_god3
+
+@278 = ~Never mind, then. Forget I spoke.~
+
+// PC_god4
+
+@279 = ~But... the gods obviously exist. Why believe in them, though? It is like believing in other people.~
+
+@280 = ~If one doesn't alert one's presence to the gods, then one will not incur divine disfavour.~
+
+@281 = ~That's heresy! Disown those words else I shall purge your soul of those evil thoughts!~
+
+@282 = ~Remember, the gods are more powerful than us mortals. In applying to them we seek to further ourselves.~
+
+@283 = ~That's a pretty dull philosophy, Yikari.~
+
+// PC_god5
+
+@284 = ~I suppose the same applies to Murder?~
+
+@285 = ~That's a sore point, Yikari.~
+
+@286 = ~Murder especially.~
+
+// PC_god6
+
+@287 = ~I suppose death has always been the way of the discontent. There has not been a murder in my Order for a thousand years.~
+
+// PC_god7
+
+@288 = ~Wishing neither favour nor disfavour?~
+
+// PC_god8
+
+@289 = ~If people were content with their means, there would be no need for gods... or murder.~
+
+// PC_nature2
+
+@290 = ~So how does one become a druid, then, <CHARNAME>?~
+
+@291 = ~To become a real druid one must find a Druid Grove and beat the Defender of the Outer Circle.~
+
+@292 = ~You know, Yikari, I liked you better when you were silent.~
+
+// PC_nature3
+
+@293 = ~A fight? How can that be any judge of character for the position?~
+
+@294 = ~It is the Law of the Jungle: only the strong survive. Druids are defenders of Nature, after all.~
+
+@295 = ~What would you prefer? A juggling competition?~
+
+// PC_nature4
+
+@296 = ~It seems that druids are no more advanced than the beasts they protect.~
+
+@297 = ~That's the idea.~
+
+@298 = ~Don't insult me, monk.~
+
+// PC_nature5
+
+@299 = ~I fail to see how anyone can protect anything by debasing themselves.~
+
+// PC_gold1
+
+@300 = ~What is this Western fascination with money?~
+
+@301 = ~Gold can get you anything. It is power.~
+
+@302 = ~We need money to live. What's the problem with that?~
+
+@303 = ~You aren't going to talk about economics, are you?~
+
+// PC_gold2
+
+@304 = ~Can gold buy you love? Happiness? Exemption from death?~
+
+@305 = ~Well, no.~
+
+// PC_gold3
+
+@306 = ~You see? Money is fickle and distracts attention from the things which really matter.~
+
+// PC_gold4
+
+@307 = ~Economics? What are you talking about? Look-~
+
+// PC_teach2
+
+@308 = ~<CHARNAME>, do you feel overwhelmed by the world since you left Candlekeep?~
+
+@309 = ~That's none of your business, Yikari.~
+
+@310 = ~It has been hard. Sometimes I just want to go home.~
+
+@311 = ~Nah. The adventuring life is for me!~
+
+// PC_teach3
+
+@312 = ~But is there anywhere which you can really call home? Is there nowhere you feel safe?~
+
+@313 = ~Candlekeep was my home, and perhaps one day I shall return.~
+
+@314 = ~Candlekeep was my home once, but I prefer adventuring.~
+
+// PC_teach4
+
+@315 = ~Homesickness is really a need for peace and stability, independant from any one place.~
+
+@316 = ~With some training, you could feel secure and confidant where ever you are.~
+
+// PC_teach5
+
+@317 = ~Truly? Then I misunderstood. The adventurer's life is a demanding one, but teaches its own security.~
+
+// Minsc1
+
+@34 = ~Yikari, Boo has never seen anyone butt-kicking with only their feet! You look more like a Calimshite dancer than a true hero of goodness.~
+
+@35 = ~But of course I kick with my feet.~
+
+@36 = ~Maybe you can teach Boo how to kick butt in that strange way?~
+
+@37 = ~Minsc, it has taken a a lifetime of devoted study to learn these arts. How can I possibly teach them to your hamster?~
+
+@38 = ~Do not insult Boo! He is the smartest miniature giant space hamster in this party.~
+
+@39 = ~Of course, Minsc, of course. I shall prepare for Boo's first lesson. But, ah, let us leave it for another time, yes?~
+
+// Minsc2
+
+@40 = ~Is Boo ready for his first lesson of martial arts, Minsc?~
+
+@41 = ~ Minsc and Boo stand ready.~ [MINSC23]
+
+@42 = ~Fine. Let us try something simple. We stand like so, place our left hand here and kick up, like this.~
+
+@43 = ~KAI!~ [KAI]
+
+@44 = ~*Squeak!*~ [GAM_48]
+
+@45 = ~Very good, Boo!~
+
+@46 = ~See! Boo is so smart he scares me sometimes.~
+
+// Minsc3
+
+@47 = ~Yikari, since you teach Boo your kicking and shouting, should Minsc show you how to kick butt like a ranger?~
+
+@48 = ~That would certainly be... instructive, Minsc.~
+
+@49 = ~See, Boo, I knew he would be interested. It's very simple: hold a big sword at the not so pointy end. See evil, and scream!~
+
+@50 = ~ Go for the eyes Boo, GO FOR THE EYES!!  RrraaaAAGHGHH!!!~ [MINSC10]
+
+@51 = ~You are a very good teacher, Minsc, but... on the whole, I prefer my way.~
+
+@52 = ~Is it not written "Every one needs to find his own way"?~
+
+@53 = ~Yes, it is not how we look when kicking the buttocks of evil that is important. No! It is the kicking that matters, and your kicks are strong!~
+
+
+
+// Imoen1
+
+@54 = ~What's the matter with ya, Yikari? You always look so serious.~
+
+@55 = ~Serious? I am sorry if my manner bothers you, Imoen.~
+
+@56 = ~That's what I'm talking about! Don't you monks *have* emotions?~
+
+@57 = ~Of course, child. I have learnt to suppress them when unnecessary, however.~
+
+@58 = ~Lighten up, willya?~
+
+// Imoen2 
+
+@59 = ~Hey, Yikari, what's that under your chin...~
+
+@60 = ~Hey! Get your hands off me! Lemme go!~
+
+@61 = ~Were you trying to play a practical joke on me, child?~
+
+@62 = ~Yes! What's the matter with you? Let me go - you're hurting me!~
+
+@63 = ~I am sorry. Please do not try that again.~
+
+@64 = ~Say, you are strong. Warm too...~
+
+@65 = ~You- <CHARNAME>, control your sister!~
+
+// Imoen3 ToB
+
+@66 = ~Yikari, did I hear you were skilled in the marital arts?~
+
+@67 = ~Martial arts? Well, yes, I have had extensive training.~
+
+@68 = ~Oh, that's good. You see, I don't quite know how to say this, but...~
+
+@69 = ~Will you make me a woman tonight?~
+
+@70 = ~Imoen, I-~
+
+@71 = ~Please, dearest Yikari! All my life I have been waiting for a tall, dark handsome man such as yourself! Hold me in your arms and love me gently!~
+
+@72 = ~Imoen, I am sworn to celibacy! I cannot do what you ask!~
+
+@73 = ~Forget those old vows, Yikari! Lie with me tonight and we shall begin life together in the morning!~
+
+@74 = ~Imoen, please. You're making a mistake!~
+
+@75 = ~I-~
+
+@76 = ~This is a joke, isn't it (sigh)?~
+
+@77 = ~(snicker)~
+
+// Imoen4 ToB
+
+@78 = ~So tell me, Yikari: what *do* monks have under their robes?~
+
+@79 = ~I- I don't feel I have to answer that question, Imoen.~
+
+@80 = ~Oh, come on! What are you hiding under there?~
+
+@81 = ~Frilly underwear?~
+
+@82 = ~Imoen!~
+
+@83 = ~Other monks?~
+
+@84 = ~That's enough from you! How dare you insult me so?~
+
+@85 = ~Fine, keep your secret. But I'll find out... one day.~
+
+
+
+// Aerie1
+
+@86 = ~It is strange, Aerie. You are not the first Avariel I have seen.~
+
+@87 = ~What? You have seen others of my kind? Tell me, please!~
+
+@88 = ~I was a novice at the time, so I cannot remember much of it. I do remember there were four of them, and they were very beautiful.~
+
+@89 = ~Their wings were large and shining white, and they were more graceful then doves.~
+
+@90 = ~They had come to the monastery to visit one of the high-order monks, I think. I only saw them from my dormitory window.~
+
+@91 = ~(sigh) I haven't seen anyone of my own kind since I was a child...~
+
+@92 = ~I was hoping that... but it doesn't matter...~
+
+// Aerie2
+
+@93 = ~You know, Aerie, you would have more self-confidence if you commanded greater control over your body.~
+
+@94 = ~What do you mean?~
+
+@95 = ~I have been taught many techniques which make you more able in body and mind. I cannot share any secrets with you, but I may teach you a few simple techniques if you wish.~
+
+@96 = ~Yes... I should like that.~
+
+@97 = ~Then listen...~
+
+
+
+// Nalia1
+
+@98 = ~Will you tell me something, Yikari? You monks learn the secrets of the Universe, you grow wise, but most of you never leave your monasteries. How can you do anyone any good that way?~
+
+@99 = ~Nalia, we do not seek enlightenment for others; it is an internal process we undertake. It cannot be done in the stressful world outside of an introspective monastery.~
+
+@100 = ~But you should still try to bring peace to others! There ought to be wandering monks, like priests, helping those they find.~
+
+@101 = ~There are some monks who venture out into the world. This is not the first time I have been in foreign parts, although I never heard of any monk journeying this far west.~
+
+@102 = ~Our way of life is not for all, and we do not owe it to anyone to teach them, unless they come to learn.~
+
+@103 = ~Then why do you teach at all?~
+
+@104 = ~I only let others teach themselves. I cannot do more than they are willing or able. Come now, we should not tarry.~
+
+// Nalia2
+
+@105 = ~Nalia? Making yourself invisible is a skill which you practise, both by magic and trick of eye, is it not?~
+
+@106 = ~Why yes, that is one thing I can do.~
+
+@107 = ~Then let me impart to you an observation I have made whilst in Athkatla:~
+
+@108 = ~If you ask others for money, you become invisible.~
+
+@109 = ~But- but that's horrible! I always give to beggars!~
+
+@110 = ~Perhaps that is why you are so conspicuous.~
+
+
+
+// Edwin1
+
+@111 = ~Tell me, monk, have you ever seen a wizard more capable, more powerful, and more virile than I, Edwin Odesseron?~
+
+@112 = ~I have seen few mages in my travels, so I suppose I must answer in the negative.~
+
+@113 = ~Of course you must: there is none greater than myself (except perhaps... no, not even him!).~
+
+@114 = ~I find that a little hard to believe, Edwin.~
+
+@115 = ~I am so good I could throw you a Scorcher and only singe your hair (Yes, make that carefully manicured bun of hair fry).~
+
+@116 = ~Perhaps so, but what good is that against a well aimed kick or blade?~
+
+@117 = ~*This* mage shall never be thwarted by the methods of such simpletons (simians all). My immense magical skill shall both protect me and turn my foes into so much dust.~
+
+//Edwin2
+
+@118 = ~Edwin?~
+
+@119 = ~Yes, you dusty Eastern dancer? (he is no more than a blur of dirty feet when he fights) Why do you disturb my schemes?~
+
+@120 = ~Pardon me for asking, but why do you... talk to yourself?~
+
+@121 = ~I don't know what you're talking about (no idea)! I think aloud (yes, he's right!), I think aloud!~
+
+@122 = ~How dare you question my sanity! Try it again and I shall turn you into something small and unpleasant (a smoked kipper, perhaps?)!~
+
+@123 = ~I never questioned your sanity... but perhaps it would be better if I were just silent?~
+
+@124 = ~Yes! Cease your incessant ramblings about us (ME! You mean me!). Yes, stop talking about me (that's better)!~
+
+// Edwina1
+
+@125 = ~Stop staring at me! If I find your eyes on me again I shall have them taken out!~
+
+@126 = ~I was just ruminating on how your desire for power corrupted your form.~
+
+@127 = ~If you had been content with what you, at least, thought to be impressive power, then you would not now be transformed.~
+
+@128 = ~This is but a mere mishap in my destiny, and I will not be ridiculed by such as you (cursed monkey)!~
+
+@129 = ~As you say.~
+
+@130 = ~(Dammit, he got the last word)~
+
+
+
+// Jan1
+
+@131 = ~My Uncle Johan went to Kara-Tur once, Yikari.~
+
+@132 = ~Oh really?~
+
+@133 = ~He was trying to open up new markets for the turnip trade, but unfortunately he ran into difficulties. It was all due to an underground cavern beneath his stall, which was inhabited once a month by a horde of estate agents; and by the time they had picked up each other and left by the Planar Express, his customers were so terrified that they eventually called a certified vegetable merchant to inspect him.~
+
+@134 = ~I... see. Go on.~
+
+@135 = ~Well, after that, everything went a bit turnip-shaped, if you know what I mean. It was all he could do not to traffic in illegal rice, calling to mind the unfortunate case of Great Aunt Winny, who was soundly spanked for smuggling a peanut shipment into Waterdeep, without, I might add, a single rogue turnip, or "Stealth-o-Turnips", as we call them in the trade. Anyway, this fish that Uncle Willie had caught-~
+
+@136 = ~Fish? What fish?~
+
+@137 = ~Why, the fish that made his fortune, of course! It was worth its weight in turnips, since it gave him the idea that revolutionized the whole fishing industry! That's how the fishing rod was invented, you know. Some insisted it had been developed independently in every early coastal community in the Realms, but it was first patented by Uncle Willie, I assure you. Did I ever tell you Cousin Archie was an inventor?~
+
+@138 = ~Jan, a year with you would drive me mad or teach me boundless patience. However, please be silent for a while, or a hasty blow will mean neither of us will ever find out which.~
+
+// Jan2
+
+@139 = ~So, Yikky, I believe I was telling you about the time my cousin was nearly eaten by two ogres outside Baldur's Gate?~
+
+@140 = ~Jan, my name is Yikari. Please address me by the same.~
+
+@141 = ~Please, Yikky, don't interrupt a gnome when he's telling a story. So, there he was, being held by two ogres, and as you know, my Cousin can talk the ears off a donkey, so he tries to stall them by telling them the tale of Second Cousin Margen. She, Margen, was running from the Watch of Neverwinter at the time, though perhaps she could have made things less confusing all round by telling them first. You see: it isn't that she *meant* to take that money: it just found its way into her coffers, just like that. The Vegetable Traders' Guild was most displeased, I assure you. Displeased with her, not the Watch, you understand.~
+
+@142 = ~Jan, what exactly are you trying to say to me? And my name is Yikari.~
+
+@143 = ~Hm? Did you want something?~
+
+@144 = ~I- never mind (sigh).~
+
+
+
+// Haer'Dalis1
+
+@145 = ~Haer'Dalis, as a poet, do you know any Haiku?~
+
+@146 = ~Haiku, my owl? What is that?~
+
+@147 = ~Ah, I am surprised that you do not know about Haiku.~
+
+@148 = ~It is the form of poetry we have in Kara-Tur. Three lines: five, seven then five syllables in them. They don't rhyme, unlike this foreign poetry.~
+
+@149 = ~Most interesting... Aye, I do try to dip my creative feet into the many pools of Prime poetry.~
+
+@150 = ~Once I have assembled a haiku worthy for your mountain home, dear owl, I shall give it to you for your slow contemplation. I trust you appreciate the beauty of words, my dear owl?~
+
+@151 = ~Yes: Haiku is a common form of seeking enlightenment, for peace and understanding can be found outside our bodies, in the rifts of mountains to the blossom of trees.~
+
+@152 = ~Mabye my stern owl does have a poet's soul, "karma" rather, after all!~
+
+// Haer'Dalis2
+
+@153 = ~Haer'Dalis... without meaning to offend, why do you call me "your owl" when you know my name to be Yikari?~
+
+@154 = ~Is my owl displeased with his name? Does an owl not suit?~
+
+@155 = ~But why do you name all your companions after birds or animals? Why the fascination?~
+
+@156 = ~I choose birds' names because they demonstrate the fleeting existence you Primes have.~
+
+@157 = ~Names earned are worth more than those given at birth. Miss Raelis taught me that.~
+
+@158 = ~It is not, then, an... affectation?~
+
+@159 = ~What a suggestion from my own true owl! You too have a bard's eye, I think.~
+
+
+
+// Keldorn1
+
+@160 = ~Friend, am I to take it that your Order does good works much like my own of the Radiant Heart?~
+
+@161 = ~Sir Keldorn, I believe you misunderstand. Though I do come from an Order, that of the Green Dragon, we have little in common with you western Paladins.~
+
+@162 = ~You try to serve your god Torm, to help others in the city, but our monastery is secluded from civilisation. We seek self-enlightenment, not your "justice". Also for us martial arts is a discipline to hone mind and body, not just a method of incapacitating others.~
+
+@163 = ~Do you mean to say that your order just rests in their mountain monastery and ignores the world's injustice? I have heard the monks of Kara-Tur called wise, yet that strikes me as terribly blind!~
+
+@164 = ~Sir Keldorn, I am sorry if I have offended you-~
+
+@165 = ~Enough. We should not debate. <CHARNAME> has use of my blade, and I must attend!~
+
+// Keldorn2
+
+@166 = ~Yikari, do you not see that your introspective lifestyle leaves you ignorant of the world outside of your monastery’s walls?~
+
+@167 = ~Why do you antagonise me so, Keldorn? My life has been no less honourable than yours, regardless that I have no foreign title.~
+
+@168 = ~You cannot excuse yourself from your duty to others by ignoring it.~
+
+@169 = ~What duty do you mean?~
+
+@170 = ~The duty to help those less fortunate than ourselves, by Torm!~
+
+@171 = ~I know only the duty to my superior and liege-<LADYLORD>, at present <CHARNAME>. Why should any other be my concern?~
+
+@172 = ~I can see you have led a want-free life, else you would not act so callously.~
+
+@173 = ~I can only act and think as I have learnt to do. If I pain you thus, Sir Keldorn, then I shall keep my speech to you behind my tongue.~
+
+
+
+
+// Cernd1
+
+@174 = ~Cernd, why do you voluntarily accept lycanthropy? Most men consider it a curse, but you seem to revel in it.~
+
+@175 = ~Nature grants me the control necessary to make it a boon rather than a curse. The power and strength of my werewolf form give me the ability to overcome those who would harm Nature. It grants me the strength to battle foes normally beyond me.~
+
+@176 = ~So it your control of your ability that cause you to see lycanthropy as blessing, where other men see only a disease?~
+
+@177 = ~It is not so simple as that. It is also a form closer to Nature, more simple and less corrupt. Nature is allowing me to become more closely entwinned with Her.~
+
+@178 = ~Thank you for enlightening me. I will think on what you have said.~
+
+// Cernd2
+
+@179 = ~Cernd, the power that nature grants to you seem to me highly flawed. You lose control of yourself - something so impure is surely bad karma?~
+
+@180 = ~Yikari, you see only the surface of the matter. The power to shift my shape is a form of purity given to me as a gift for my services to Nature.~
+
+@181 = ~What do you mean? You become less than a man. You lose all the discipline you have striven so hard to achieve.~
+
+@182 = ~It is true that I become primal. When I shift form I am simply becoming closer to Nature - closer to the roots of myself. It is a more simple, less complicated form. You seek purity of body and soul - what is more pure than a creature of Nature? In some ways my shapechanging is very like your own quest for self perfection.~
+
+@183 = ~But you relinquish your self-control. I see the value of what you claim, but with such an element of beast, how can it be pure?~
+
+@184 = ~I lose my wisdom, but I gain strength and agility. I lose some things, but they are replaced by others. In my other form I simply have no need of knowledge - everything is resloved: all that matters is the moment and the battle. In my shifted form, I am in some ways more pure than you can ever be through your meditations and study!~
+
+@185 = ~Yes... I see how that is a form of control, albeit a strange one. Thank you, Cernd.~
+
+
+
+// Viconia1
+
+@186 = ~I feel your eyes on me, abil. If you want to feel my body tonight, you need only beg.~
+
+@187 = ~Viconia?~
+
+@188 = ~Yes, male?~
+
+@189 = ~I am celibate. You can redirect your advances to others if you wish.~
+
+@190 = ~Celibate? What do you mean?~
+
+@191 = ~I have sworn not to lie with anyone. It is a part of the sacrifice a monk makes to train his mind and body.~
+
+@192 = ~WHAT- ssa n'taerreth neth'rar (mutter)...~
+
+// Viconia2
+
+@193 = ~So, monk, in your... "celibate" state, are you not constantly frustrated by every beautiful body you find?~
+
+@194 = ~At first it was challenging, but now I find no difficulty in restraining my... animal urges.~
+
+@195 = ~Ha! Don't deny the inevitable. You cannot help but find me irresistable! Damn you, monk!~
+
+@196 = ~Viconia, I have no interest in you sexually. Please control yourself.~
+
+@197 = ~If you have difficulty in dealing with your desires I am sure we can find someone for you in the next town.~
+
+@198 = ~Ss'a ma'laeret mon'a ruth'gar! Ssa minit'rae!~
+
+
+
+// Korgan1
+
+@199 = ~Ye know, Yikari, ye do just fine in battle. I ne'er seen a longlimbs fight like ye do, but if ye can only do it after ye "meditashun" mumbo-jumbo, then ye can shove it where the sun don't shine.~
+
+@200 = ~Well, my good dwarf, my training in the martial arts is just one of many disciplines which I have mastered in order to perfect my control of mind and body.~
+
+@201 = ~Ach, I knew it! Do ye not just want te revel in the bloodlust when ye axe severs neck? I ain't ye "good dwarf" neither.~
+
+@202 = ~I take no pleasure in death, though I do obtain satisfaction from the perfect execution of an exercise or manouevre.~
+
+@203 = ~Bah! Ye're nothin' but a towel-wearing fool!~
+
+// Korgan2
+
+@204 = ~Hey monk, join me in a mug o' ale with me, next tavern we find.~
+
+@205 = ~Ale? Alcohol leads to a loss of control and a dampening of inhibition. I fear I cannot, Korgan.~
+
+@206 = ~What? Ye willna ha' a drop o' ale? What do ye damned monks do for fun?~
+
+@207 = ~Well, I suppose... I don't know. I never thought about it.~
+
+@208 = ~Of all the most hair-brained, crack-headed, foolish bunch of longlimbs, you monks have got to be the very worst!~
+
+
+/*
+// Anomen1
+
+@209 = ~Yikari! A word with you if I may.~
+
+@210 = ~Of course.~
+
+@211 = ~Which do you prefer: Second or Third Edition Advanced Dungeons and Dragons rules?~
+
+@212 = ~Well, of course Third means that, as a monk, I can become supremely powerful in an unprecedentedly brief span of time.~
+
+@213 = ~Is that not a poor act of balancing?~
+
+@214 = ~Indeed: you might say that having the same Experience tables for all classes was over-simplistic. In this respect, Third Edition is at fault.~
+
+@215 = ~Thank you, good monk. Let us converse on this later.~
+
+// Anomen2
+
+@216 = ~If we continue our previous conversation, Anomen? I must say that the combat and armour is more intuitive in the Third Edition.~
+
+@217 = ~Why yes, indeed this is so. Negative armour class is rather confusing for the new adventurer, is it not? However, as we have heard report from Neverwinter, it is not the rule system that makes the game.~
+
+@218 = ~A most astute observation, Anomen. Yet, if it comes to that, we are hardly operating in strictly Second Edition Rules now, are we? Perhaps in this one respect, a looser adherence to the rules can result in a better adventure.~
+
+@219 = ~Speaking of adventure, we should cease our tarrying and bantering, no?~
+*/
+
+
+// Mazzy1
+
+@220 = ~Small one, may I ask a question of you?~
+
+@221 = ~Small one? My good Yikari, I would prefer to be addressed by my name, which is Mazzy.~
+
+@222 = ~Forgive me, Mazzy. I did not mean to offend.~
+
+@223 = ~Not at all, sir. What did you want to know?~
+
+@224 = ~Mazzy, I note that you are a warrior of some skill, and dedicated to the service of your god.~
+
+@225 = ~I thank you for the compliment. I do strive to be a worthy servant of Avoreen.~
+
+@226 = ~Yet you seem to crave recognition as a Paladin of this “Avoreen” from those outside of your race and faith.~
+
+@227 = ~That is true. I would wish to be recognised as a Paladin.~
+
+@228 = ~So my question is: why?~
+
+@229 = ~I beg your pardon?~
+
+@230 = ~Why do you crave such recognition?~
+
+@231 = ~Yikari, this may be difficult for you to understand, but my people are, I fear, undervalued and underestimated by the great powers in this land.~
+
+@232 = ~We are dismissed as farmers and merchants, and those few of us who pursue more adventurous lives are too often stereotyped as thieves. I wish to bring glory and recognition to my people and my god, to show the world that Halflings too can strive for justice, and for the right.~
+
+@233 = ~Do you not see how hollow such recognition would be? Perfection of the self is all that matters, and that takes place entirely within.~
+
+@234 = ~That may be true, good monk. Still, I must look beyond myself to serve my people, and in this world glory is no small thing.~
+
+
+
+// Yoshimo1
+
+@235 = ~Excuse me, are you THE Yoshimo? Feared by all?~
+
+@236 = ~Why yes, good monk! See <CHARNAME>, I knew someone would know of me.~
+
+@237 = ~Then tell me, Yoshimo, is it true what they say about the theft of the Grim Ankh of Morpork? I heard you crept past three-score guards and eluded capture!~
+
+@238 = ~Ha! As I remember it was four-score, and I also had the time to seduce a few maidens on the job!~
+
+@239 = ~And did you also take the fiery goblet from the hoard of Athor the brown wrym?~
+
+@240 = ~All my work! Yes, yes! A true admirer at last, from Kara-Tur, no less!~
+
+@241 = ~Then perhaps you can help me clear up a matter concerning them. I have researched your exploits, yet I can find no mention of any city of Morpork. Nor is Athor in the ancient lore-list of wyrms, as I have read.~
+
+@242 = ~<CHARNAME>, you lived at Candlekeep. Surely you can enlighten our friend here (wink)?~
+
+@243 = ~(Lie) Of course, the fabled lost city of Morpork! And the fierce wrym Athor, how great he was in the majesty! And I thought you learned, Yikari!~
+
+@244 = ~(Truth) He's pulling your leg, Yikari. It's possible a little of what you have heard may have been... exaggerated over time.~
+
+@245 = ~I thank you, for one never stops learning.~
+
+@246 = ~Ah, how disappointing. Perhaps you will tell me sometime yourself, Yoshimo.~
+
+@247 = ~Hah, of course, my friend.~
+
+// Yoshimo2
+
+@248 = ~Friend, what are those tattoos on your chest?~
+
+@249 = ~It is a green dragon. I belong to the Order of the Green Dragon; the tattoos are a testament to that.~
+
+@250 = ~The Order of the Green Dragon... I don't think I have heard of it.~
+
+@251 = ~There is no reason you should have, if you are not a monk, that is. The monastery is in a valley between two small mountains. The views are beautiful, there are cherry blossoms in Spring and delicate snowfalls in winter.~
+
+@252 = ~I should like to come visit your monastery, if it is really so wonderful.~
+
+@253 = ~When all this is over, perhaps we shall journey back together.~
+
+
+
+// Valygar1
+
+@254 = ~If I may ask, Valygar, how did a man of the West come into a possession of such a fine weapon as Bleeder?~
+
+@255 = ~I had an adventurous ancestor, Yikari. Not unlike you, he traveled far. The sword was a curiosity he brought home and when I was a child, I gazed at it hanging at the wall; the day I was tall enough to pull it free of the scabbard, I did.~
+
+@256 = ~You did not request the permission of your elder?~
+
+@257 = ~My tutor complained to my mother that morning that I was inattentive and wilful. My lady mother absent-mindedly sent me to my father, and my lord father was too exhausted by a fit of his sickness to care. He simply ordered me to go play while he talked to my over-zealous governor.~
+
+@258 = ~A katana is a weapon which needs a man’s hand - it is no toy. Its master can take it free of its scabbard and decapitate a foe in one motion.~
+
+@259 = ~Perhaps. But the boys who play with danger grow quicker than the cautious ones.~
+
+@260 = ~No, Valygar, if a man was not trained in self-discipline, his life would be an eternal boyhood.~

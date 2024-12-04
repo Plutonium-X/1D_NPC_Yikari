@@ -1,0 +1,147 @@
+/* ITALIAN TRANSLATION FOR YIKARI; main, leaving dialogue */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPC
+
+@1 = ~(C'è un monaco, in piedi, davanti a te.)~
+
+@2 = ~Salve amico. Cosa posso fare per te?~
+
+@3 = ~Chi sei?~
+
+@4 = ~Sei un altro fanatico che vuole convertirmi alle sue ridicole fedi, vero? Vattene, monaco!~
+
+@5 = ~(Il monaco non dice nulle ma ti fissa e rimane in silenzio.)~
+
+@6 = ~Ciao, sono <CHARNAME>. E tu chi sei?~
+
+@7 = ~Perchè non parli? Hai forse perso la lingua, monaco?~
+
+@8 = ~Ok. Ora me ne vado. Ci vediamo...~
+
+@9 = ~(Il monaco ti mostra l'iscrizione sulla sua Ninja-To. Si legge "Yikari".)~
+
+@10 = ~Non sei di molte parole, vero Yikari?~
+
+@11 = ~Allora, cosa posso fare per te, Yikari?~
+
+@12 = ~Beh, è stato un piacere conoscerti, Yikari, ma ora ho molte cose da fare tipo uccidere draghi, e cose del genere.~
+
+@13 = ~(Il monaco scrolla le spalle. Prova a dirti qualcosa gesticolando per alcuni momenti ma non riesce a farsi capire, poi lascia stare.)~
+
+@14 = ~Allora, cosa posso fare per te?~
+
+@15 = ~Scusa, non ho capito bene il tuo nome.~
+
+@16 = ~Non conosco la lingua dei segni. Lascia perdere.~
+
+@17 = ~(Il monaco Yikari punta il dito verso il Complesso Sorvegliato nella parte ad Est del Distretto del Tempio. Poi guarda te, e la sua Ninja-To.)~
+
+@18 = ~Vuoi che vada là? All'interno di quel Complesso Sorvegliato?~
+
+@19 = ~Qualsiasi sono i tuoi affari là, io non voglio entrarci. Me ne vado.~
+
+@20 = ~Hmm... fammi indovinare. Questo non ha per caso a che fare con una certa spada? Non è un'ipotesi azzardata la mia, vero?~
+
+@21 = ~(Il monaco ti fa dei cenni di assenso col capo e ti sorride.)~
+
+@22 = ~Ok, facciamogli vedere chi è il migliore!~
+
+@23 = ~Spero solo che ne valga la pena, Yikari.~
+
+@24 = ~Non posso sempre fare tutto quello che mi viene chiesto - non sai chi sono? Forse un'altra volta.~
+
+// Now he can talk
+
+// Biography:
+@1000 = ~YIKARI è un monaco di Kara-Tur e appartiene all'Ordine del Dragone Verde. E' stato inviato dal suo maestro per cercare di recuperare la Furia Celestiale ora in possesso di un kensai di nome Koshi che l'ha rubata. Ha fatto voto di silenzio finché non ha recuperato la Furia Celestiale. Acconsente a viaggiare con te, per il momento, ma dovrà presto portarsi via con lui la spada e far ritorno a Kara-Tur. Fino ad allora, tuttavia, si mette a tua disposizione per aiutarti nella tua causa.~
+
+@25 = ~Scusami, questa spada... è la Furia Celestiale? E tu sei <CHARNAME>?~
+
+@26 = ~Si. E tu chi sei? E cosa vuoi?~
+
+@27 = ~Forse... e tu chi sei?~
+
+@28 = ~<CHARNAME>? Spiacente, ti devi essere confuso con un'altra persona. E questa è... un'altra katana. Addio.~
+
+@29 = ~Il mio nome è Yikari, un monaco dell'ordine del Dragone Verde, sono stato mandato dal mio maestro per una missione di grande importanza.~
+
+@30 = ~Molto tempo fa un ladro kensai di nome Koshi ha preso la più sacra reliquia del nostro monastero, la Furia Celestiale.~
+
+@31 = ~Una volta scoperto il furto, il mio maestro mi ha scelto per ritrovare la spada rubata: La Furia Celestiale. Da quel giorno ho giurato di rimanere nel più assoluto silenzio finchè non l'avessi recuperata ed ho concentrato la mia mente e le mie forze per ritrovarla.~ 
+
+@32 = ~Ho passato molti mesi a cercare il ladro della spada, ma ora l'ho finalmente trovato qui ad Athkatla.~
+
+@33 = ~Ora ti chiedo una cosa: lasciami compiere la mia missione qui e recuperare la spada. Il tesoro conquistato nel sangue vale meno della polvere su cui camminiamo.~
+
+@34 = ~Beh, se ne può parlare. Sono sicuro che possiamo metterci d'accordo.~
+
+@35 = ~Ti dono con gioia la Furia Celestiale. Prendila e ritorna a Kara-Tur.~
+
+@36 = ~Se vuoi prenderti la spada dovrai combattere! In guardia!~
+
+@37 = ~Ok, sarei felice di venire ad un accordo.~
+
+@38 = ~Ti lascerei volentieri la spada ma per ora ne ho bisogno. Potrei tenerla fino a che non mi sarò occupato di Irenicus?~
+
+@39 = ~Io non ho più diritto di altri a possedere questa spada? La vittoria in battaglia è il modo più vecchio per stabilire la legittima proprietà!~
+
+@40 = ~Per mantenere contemporaneamente la proprietà della spada, potremmo combattere insieme, per un certo periodo di tempo, e dividercela un po' per uno, che ne pensi?~
+
+@41 = ~Se accetto di darti la spada dovrei avere una ricompensa in cambio.~
+
+@42 = ~Ho cambiato idea. Eccoti la spada.~
+
+@43 = ~Allora siamo d'accordo nel non essere d'accordo. Adesso muori!~
+
+@44 = ~Hmm... Dovrei viaggiare con te e sorvegliarti per un certo periodo di tempo per poi riprendermi la spada una colta completata la tua causa, giusto? Però preferirei tenere la Furia Celestiale io stesso.~
+
+@45 = ~Non puoi lasciarmi, Yikari. Potrai usare la tua spada se vorrai.~
+
+@46 = ~D'accordo. Prendi la spada e unisciti a me.~
+
+@47 = ~Purtroppo, però, attualmente non ho spazio nel mio gruppo per prenderti con me.~
+
+@48 = ~Beh, comunque non voglio viaggiare insieme a te. Prendi la Furia Celestiale e vattene!~
+
+@49 = ~Se si fosse trattato della mia spada personale, te l'avrei lasciata prendere, ma non posso decidere io. Ho una promessa da mantenere. Devo tornare con la Furia Celestiale.~
+
+@50 = ~Il mio Ordine ti ricompenserà con l'oro se lo vorrai.~
+
+@51 = ~Maledizione ai tuoi dannati gingilli! Questa spada è mia di diritto!~
+
+@52 = ~Va bene, accetterò dell'oro in cambio della Furia Celestiale.~
+
+@53 = ~Ho un'idea migliore - perché non ti unisci a me così potremmo aver entrambi la spada?~
+
+@54 = ~Ho cambiato idea. Prenditi pure la spada.~
+
+@55 = ~E sia! Combatteremo per averla, potrò così tornare trionfante!~
+
+@56 = ~Ti ringrazio! Ora devo lasciarti. Buona fortuna.~
+
+//---------------------------------------SDNPCP
+
+@57 = ~(Yikari alza un sopracciglio e mette la testa da una parte.)~
+
+@58 = ~Per favore, aspettami un pò qui, Yikari.~
+
+@59 = ~Yikari, per favore, torna al Distretto del Tempio, ci rincontreremo lì più tardi.~
+
+@60 = ~Ho bisogno ancora di te, Yikari.~
+
+@61 = ~Ricordati che ho fatto giuramento di prendere la Furia Celestiale e riportarla nel mio Monastero.~
+
+@62 = ~Ti consegno volentieri la Furia Celestiale. Prendila e torna pure a Kara-Tur.~
+
+@63 = ~Ho bisogno che tu stia dalla mia parte, Yikari. Rimani con me ancora un po'!~
+
+@64 = ~ Yikari, per favore torna al Distretto del Tempio, ci rincontreremo lì più tardi .~
+
+@65 = ~Porta questa spada da qualche parte e mi vedrò costretto ad eliminarti!~
+
+@66 = ~Mi dispiace <CHARNAME>. Ho ritardato troppo.~ 
+
+@67 = ~Argh! Mi hai portato via la Furia Celestiale da sotto il naso! Tu, <CHARNAME> ingannevole mostro!~
+
+@68 = ~Salve, <CHARNAME>. Andremo insieme? O forse non hai più bisogno di me e posso tornare nella mia patria?~

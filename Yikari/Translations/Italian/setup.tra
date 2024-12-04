@@ -1,0 +1,228 @@
+/* Yikari Setup Italian*/
+/* VERSION 1.5 */
+
+//---------------------------------------
+@1 = ~Yikari, un NPC monaco~
+//---------------------------------------
+@2 = ~E' richiesto ToB~
+//---------------------------------------
+@3 = ~La Tunica di Yikari~
+
+@4 = ~Questa tunica è di proprietà del monaco Yikari, sembrerebbe incantata ma poichè Yikari è poco eloquente non puoi sapere di più riguardo questo indumento. Raramente se la toglie e non ti permetterà di esaminarla neanche furtivamente.
+
+STATISTICHE:
+
+Abilità durante l'uso: ?
+Peso:  3
+Utilizzabile da:
+ Yikari~
+
+@5 = ~ Ninja-To di Yikari~
+
+@6 = ~ Ninja-To di Yikari 
+Questa è la Ninja-To personale del monaco Yikari. Lungo la lama c'è il suo nome intagliato dal fabbro che gliela ha forgiata. Senza alcun dubbio è incantata, come si può intravedere dalla luminescenza blu che brilla sulla lama, ma siccome Yikari è poco eloquente, non puoi saperne molto di più a riguardo. Yikari raramente si separa da quest'arma e mai la lascia incustodita. Ti rimane così impossibile prenderla per esaminarla. 
+
+STATISTICHE
+
+Abilità durante l'uso: ?
+THAC0: +? bonus
+Danno:  1D8 +?
+Tipo di danno:  da taglio
+Peso:  5
+Fattore velocità: 2
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 6 di Forza
+Usabile da:
+ Yikari~
+ 
+@7 = ~Questa tunica è di proprietà del monaco Yikari. Il mantello è stato originariamente creato per i ladri al fine di migliorare la loro concentrazione ed il loro self-control, ma ben si adatta al monaco Yikari che raramente se lo leva, non permettendo a nessuno di esaminarlo.
+
+STATISTICHE:
+
+Abilità durante l'uso: +5 a Nascondersi nelle ombre, Muoversi silenziosamente, Scoprire trappole
+Peso:  3
+Usabile da:
+ Yikari~
+ 
+@8 = ~Questa è la Ninja-To personale del monaco Yikari. Lungo la lama c'è il suo nome intagliato dal fabbro che gliela ha forgiata. Senza alcun dubbio è incantata, come si può intravedere dalla luminescenza blu che brilla sulla lama, può essere un'arma si offensiva che di difesa. Yikari raramente si separa da quest'arma e mai la lascia incustodita. 
+
+STATISTICHE
+
+Abilità durante l'uso: +1 ai tiri salvezza, +5 ai punti ferita massimi
+THAC0: +2 bonus
+Danno:  1D8 +2
+Tipo di danno:  da taglio
+Peso:  5
+Fattore velocità: 2
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo:  ad una mano
+Richiede: 6 di forza
+Usabile da:
+ Yikari~
+
+@9 = ~Furia Celestiale~
+
+@10 = ~Katana +3
+Rendere una katana magica non è un processo semplice. A differenza delle armi convenzionali, la katana è già uno strumento di morte quasi perfetto. Di solito potenziarlo richiede un sacrificio: ad esempio, un samurai morente potrebbe chiedere ad un Wu Jen di infondere il suo spirito all'interno nella spada. Chi impugna una katana magica, come in questo caso, deve rispettare le usanze di Kara-Tur e dei samurai che un tempo la brandivano in battaglia. Non farlo potrebbe portare molta sfortuna.
+
+STATISTICHE:
+
+Abilità durante l'uso: 
+    Fulmine:  Una volta al giorno
+    Cecità:  Una volta al giorno
+Abilità di Combattimento: 
+    Tuono assordante quando la spada colpisce un avversario
+    (Stordimento, tiro salvezza contro incantesimi)
+    Scarica di Elettricità quando la spada colpisce un avversario
+    (5% di probabilità di infliggere altri 20 danni da elettricità)
+THAC0: +3 bonus
+Danno:  1D10 +3
+Tipo di Danni:  da taglio
+Peso:  3
+Fattore-velocità: 1
+Tipo di competenza: Katana
+Tipo:  ad una mano
+Richiede: 6 di forza
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago ~
+ 
+@11 = ~Furia Celestiale +5~
+
+@12 = ~Furia Celestiale +5
+Rendere una katana magica non è un processo semplice, almeno questo è quello che  <CHARNAME> pensava prima di verificare la cosa. In realtà la parte più difficile per rinforzare la semi-divina katana conosciuta col nome di Furia Celestiale è stato recuperare la miriade di ingredienti richiesti. La Furia Celestiale ha ben servito <CHARNAME> dopo che è stata presa dal kensai Koshi nel Distretto del Tempio di Athkatla. La storia della sua origine è la seguente:
+
+Molti anni fa, le forti tempeste e i violenti incendi, causati da continui lampi, devastarono la provincia amministrata dal daimyo Hoshi Katahiroi.I consiglieri del daimyo, tutti rispettabili maghi, si resero rapidamente conto, che non era la Natura la responsabile di tali disastri, ma bensì era opera di un potente dragone di un ordine sconosciuto. Alcuni maghi saggi suggerirono che la creatura era un abominio; altri credevano  che la creatura fosse nata dal Caos Originale prima che Kara-Tur si fosse formata. Tutti i consiglieri si misero d'accordo nel chiamarla Furia Celestiale
+
+Il daimyo Hoshi, tuttavia, non voleva sapere di che natura fosse la creatura che terrorizzava la sua provincia, ma voleva semplicemente cercare di distruggerla. Commissionò, quindi, al famoso Chigatta (un artigiano recluso, maestro delle arti mistiche), la costruzione di un arma che doveva scindere lo spirito del dragone e nello stesso tempo fendere il suo corpo. Chigatta riuscì a costruire una bellissima katana che chiamò Furia Celestiale in quanto poteva incantare con i suoi tuoni e distruggere con le sue scariche elettriche.
+
+Con quest'arma, Hoshi cercò, tra la tempesta, il dragone che minacciava la sua provincia. Grida e ruggiti risuonarono nei cieli durante il giorno, e lampi di fuoco si biforcavano nel cielo nella notte. Alla fine, Hoshi distrusse il corpo del dragone e intrappolò il suo spirito nella spada, fondendo le due Furie Celesti in una ed imprimendo il marchio dell'ordine sul caos. A conclusione della sua vittoria, Hoshi fece fare da Chigatta un bel fodero per la katana con la pelle del drago e vi incastonò una perla magica sull'impugnatura della spada.
+
+Tuttavia il dragone ottenne la sua rivincita. Hoshi era esperto in battaglia ma debole nella volontà. Fu facile, quindi, per lo spirito della Furia Celestiale prendere il controllo della mente di Hoshi, costringendolo ad uccidere Chigatta e poi ad uccidere se stesso. Dopo quest'episodio la katana sparì (molto probabilmente furono i familiari di Hoshi, addolorati dalla sua morte, a far scomparire l'arma) e passò forse di mano in mano negli anni successivi.
+
+La Furia Celestiale è una katana di pregevole fattura - possiede una lama affilata come un rasoio, flessibile ma indistruttibile, ha una protezione di comodo cuoio che la ricopre ed un'enorme perla incastonata sull'impugnatura della lama. Le lettere magiche della parola Furia Celestiale sono incise sulla lama e, quando viene utilizzata, emettono una pallida luce violetta con un bagliore di elettricità. La spada è custodita in un fodero di pelle di drago, le cui scaglie di color grigio-ardesia brillano costantemente emettendo riflessi di blu, viola e argento.
+
+STATISTICHE: 
+
+Abilità durante l'uso: 
+    Fulmine:  Una volta al giorno
+    Cecità:  Una volta al giorno
+Abilità di Combattimento: 
+    Tuono assordante quando la spada colpisce un avversario
+    (Stordimento, tiro salvezza contro incantesimi)
+    Scarica di Elettricità quando la spada colpisce un avversario
+    (5% di probabilità di infliggere altri 20 danni da elettricità)
+THAC0: +5 bonus 
+Danno:  1D10 +5
+Tipo di Danni:  da taglio
+Peso:  3
+Fattore-velocità: 0
+Tipo di competenza: Katana
+Tipo:  ad una mano
+Richiede: 6 di forza
+Utilizzabile da:
+ Yikari~
+
+@13 = ~Yikari~
+
+@14 = ~Quando domandi a questo monaco vagabondo, YIKARI, il suo passato per tutta risposta ricevi uno sguardo impassibile. Potrebbe parlare ma non lo fa, così puoi solo supporre che abbia fatto voto di silenzio. Sicuramente viene da Kara-Tur ma non puoi esserne certo. Ha un tatuaggio di un dragone verde su ogni palmo. Questo denota che viene dall'Ordine del Dragone Verde ma la tua è pura deduzione. Non riesci a capire il motivo che lo ha portato fin qui poiché agli occhi degli abitanti di Kara-Tur la Costa della Spada è considerata terra di barbari.
+
+Qualunque sia la sua storia, YIKARI sembra ben disposto a seguirti mostrandosi abbastanza esperto nel maneggiare una spada. In più la sua conoscenza delle arti marziali e molto elevata.~
+
+@15 = ~Terminato di aiutare <CHARNAME> alla fine della saga della Progenie di Bhaal, Yikari riprese il lungo cammino verso il suo monastero. Ora che la Furia Celestiale era stata recuperata, era trattato con grandi onori. Rimase nella sua terra per molti anni, cercando una più completa meditazione e ricordando i suoi trascorsi da avventuriero sulla Costa della Spada. Diversi dei suo vecchi compagni lo andarono a trovare e rimasero stupiti dalla serenità, dalla calma e dalla pace che vi trovarono. Molti rimasero per mesi o anni prima di ritirarsi nei loro paesi. Sebbene lui non lo sapesse, Yikari guadagnò una notevole reputazione nel monastero per la sua grande saggezza e la sua amicizia con creature straniere potenti e forestiere. Quando il suo Reverendo Abate scomparve all'età di ottantotto anni, Yikari fu scelto dai suoi pari come suo successore, benché egli non cercò di sua iniziativa quella posizione. Per decenni, il monastero, nascosto tra le montagne di di Kara-Tur, fiorì sotto la guida di Yikari come le ciliegie degli alberi che amava molto.~
+
+//---------------------------------------Soundset
+
+@16 = ~Non c'è disonore nella ritirata!~ [1AMONK06]
+
+@17 = ~Va tutto bene!~
+
+@18 = ~Segui il mio esempio, adesso e in futuro.~
+
+@19 = ~Dobbiamo avere cura del nostro corpo - dobbiamo riposarci!~
+
+@20 = ~La meditazione e il riposo migliorano la mente. Dovremmo fermarci più spesso.~
+
+@21 = ~La mia furia si scatena sui miei nemici!~ [1AMONK02]
+
+@22 = ~Assaggia la forza del mio pugno!~ [1AMONK03]
+
+@23 = ~La mia lama ti taglierà il collo!~
+
+@24 = ~Non hai più tempo per arrenderti!~
+
+@25 = ~Arrenditi e potrai vivere ancora!~
+
+@26 = ~~ [1AMONK04]
+
+@27 = ~~ [1AMONK05]
+
+@28 = ~Non potrò resistere a lungo...~
+
+@29 = ~Trovo piacevole la calma della foresta.~
+
+@30 = ~Le città generano tensione e impazienza. E' molto importante cercare la serenità e distaccarsene.~
+
+@31 = ~Mi chiedo quali folli e pericolose creature possano vivere qui!~
+
+@32 = ~E' una bella giornata per vivere.~
+
+@33 = ~L'oscurità ci nasconderà. Ma nasconderà anche i nostri nemici. Facciamo attenzione.~
+
+@34 = ~Quali sono i tuoi ordini?~
+
+@35 = ~Cosa vuoi da me?~ [BALTHA01]
+
+@36 = ~Cosa desideri?~
+
+@37 = ~Dirigi la mia lama verso il suo bersaglio.~
+
+@38 = ~Sono pronto all'azione.~
+
+@39 = ~Devo agire così rudemente?~
+
+@40 = ~Come vuoi.~
+
+@41 = ~Molto bene. Seguiro precisamente le tue direttive.~
+
+@42 = ~I miei piedi tracciano la via.~
+
+@43 = ~Ti sento e ti obbedisco.~
+
+@44 = ~Se questo é quello che vuoi.~
+
+@45 = ~Sarà fatto!~
+
+@46 = ~Finché hai bisogno di me non mi riposerò.~
+
+@47 = ~Hmm? Cosa c'é?~
+
+@48 = ~E' il momento di muoversi ancora una volta, vero?~
+
+@49 = ~KAI!~ [KAI]
+
+@50 = ~Bah! Ti avrò di nuovo.~
+
+@51 = ~Nessuno mi vedrà quando passerò.~
+
+@52 = ~E' necessario un cambio di tattica qui!~
+
+@53 = ~Non sono un mulo da soma.~
+
+@54 = ~Puah - la mia meditazione è stata interrotta!~
+
+//--------------------------------------- Optional Components
+
+@60 = ~Compatibilità con Item Upgrade SoA~
+
+@61 = ~Devi avere installato Shadows Of Amn Item Upgrades.~
+
+@62 = ~Compatibilità con Item Upgrades ToB~
+
+@63 = ~Devi avere installato Throne of Bhaal Item Upgrades.~
+
+@64 = ~Compatibilità con Kuroisan (da Tactics o Big Picture)~
+
+@65 = ~Compatibilità con Kuroisan (da Tactics o Big Picture) saltata.~

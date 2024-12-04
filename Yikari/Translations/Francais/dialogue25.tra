@@ -1,0 +1,44 @@
+/* FRENCH TRANSLATION FOR YIKARI, ToB */
+/* VERSION 1.5 */
+
+/////////////////////////////////////////
+////////////////*SDNPC25*////////////////
+/////////////////////////////////////////
+
+// Appear in Pocket Plane
+
+@1 = ~...~
+
+@2 = ~<CHARNAME>, quel est cet endroit ? As-tu à nouveau besoin de moi ?~
+
+@3 = ~Oui, Yikari. Voyageras-tu avec moi ?~
+
+@4 = ~Patiente un peu dans mon antichambre. Je reviendrai pour toi.~
+
+@5 = ~Si tu le désires. Je voyagerai un temps avec toi.~
+
+@6 = ~J'ai des devoirs à remplir et tu voudrais que je me languisse ici ?~
+
+@7 = ~Très bien. Je ferai preuve de patience.~
+
+@8 = ~Et bien, <CHARNAME>, as-tu toujours besoin de moi ?~
+
+
+/////////////////////////////////////////
+///////////////*SDNPC25P*////////////////
+/////////////////////////////////////////
+
+// Leave Party
+
+@9 = ~J'ai besoin de ta compagnie, Yikari. Allons-y !~
+
+@10 = ~Attends ici. Je reviendrai vite.~
+
+
+/////////////////////////////////////////
+////////////////*FATESP*/////////////////
+/////////////////////////////////////////
+
+// Fate Spirit
+
+@11 = ~Amène-moi Yikari, le moine.~

@@ -1,0 +1,73 @@
+/* ITALIAN TRANSLATION FOR YIKARI; interjections */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPCJ
+
+@1 = ~Ah! Finalmente la mia ricerca é giunta al termine! Io... ora parlo!~
+
+@2 = ~<CHARNAME>, lascia che ti spieghi.~
+
+@3 = ~Non credo sia saggio entrare in un simile accordo ambiguo, <CHARNAME>. Tuttavia la scelta è tua.~
+
+@4 = ~<CHARNAME>, non sembri stare bene. Vuoi riposarti?~
+
+@5 = ~Non ho mai visto una cosa simile prima d'ora - <CHARNAME>, devi esercitarti ad un rigoroso auto controllo se non vuoi avere una ricaduta. Devi essere forte!~
+
+@6 = ~Yikari, il saggio monaco; ti deve la sua alleanza, ma ha un incarico e deve ritornare la suo monastero.~
+
+@7 = ~Yikari: hai la Furia Celestiale, ritorna al tuo monastero. Non posso pretendere che tu continui a venire con me.~
+
+@8 = ~Hai la Furia Celestiale, Yikari. Questa è una buona occasione per tornare a casa tua.~
+
+@9 = ~Yikari, desideri rimanere con me fino alla sconfitta di Irenicus?~
+
+@10 = ~Non ti lascerò ora che hai maggiormente bisogno, <CHARNAME>. Non posso permettere che tu perisca ora, sul mio onore.~
+
+@11 = ~(Il monaco fa un cenno risoluto di consenso senza incrociare il tuo sguardo.)~
+
+@12 = ~Ah, alla fine il mio dovere é compiuto?~
+
+@13 = ~Non mi sarei mai aspettato che i miei viaggi mi avrebbero portato in questi posti... ma ora che sono qui preferirei andarmene, il prima possibile.~
+
+@14 = ~Quindi anche tu sei alla ricerca della piena saggezza? Se solo avessimo un po' di tempo per parlare...~
+
+@15 = ~Se le persone desiderano andare dietro a questo culto e si sentono appagate allora perché loro non possono? Io non credo in questo uomo e nel suo dio, <CHARNAME>.~
+
+@16 = ~<CHARNAME>! Quel criminale ha preso i tuoi soldi e ci ha sviato con dei gingilli magici. Non c'è onore tra i ladri e non dobbiamo credergli.~
+
+@17 = ~Ora dobbiamo combattere in prima linea nella sua guerra? Credo che voglia annullare il suo debito verso di noi e consegnarci nelle mani dei suoi nemici.~
+
+@18 = ~Stiamo tra una banda di ladri da una parte e la tua organizzazione dall'altra, e tu sei... molto... viscido. Per quel che mi riguarda non dò fiducia né all'una e né all'altra.~
+
+@19 = ~Cadrai, Irenicus!~
+
+@20 = ~La tua lingua potrebbe essere biforcuta. Non credo a nulla di quello che dici.~
+
+@21 = ~Conosci la città maglio di noi; noi non ci arrischiamo di fare nulla. Cosa suggerisci?~
+
+@22 = ~Quest'uomo é molto generoso con i suoi soldi... Io sarei diffidente, <CHARNAME>.~
+
+@23 = ~<CHARNAME>, tutto questo é una follia. Questo nemico é al di sopra delle nostre possibilità. Lasciamo questo posto!~
+
+@24 = ~Ho passato mesi cercando questa spada ed ho un giuramento che mi obbliga a tornare al mio monastero a Kara-Tur. Ed ora tu me la stai chiedendo così, in modo disinvolto? Non sei certo migliore di coloro che l'hanno rubata ed io la difenderò con la mia stessa vita!~
+
+@25 = ~Puoi fare una daikatana di Furia Celestiale?~
+
+@26 = ~Si, facciamola!~
+
+
+// PC-initiated
+
+@500 = ~Si? Cosa posso fare per te?~
+
+@501 = ~Ho deciso di lasciarti custodire la Furia Celestiale.~
+
+@502 = ~Yikari, vorresti che qualcun altro utilizzasse la Furia Celestiale?~
+
+@503 = ~Niente, scusa. Come non detto.~
+
+@504 = ~Ah, eccellente! Ti ringrazio, <CHARNAME>.~
+
+@505 = ~Beh... se lo desideri.~
+
+@506 = ~No, non la lascerò mai. E' più sicura con me.~

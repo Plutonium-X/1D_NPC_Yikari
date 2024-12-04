@@ -1,0 +1,269 @@
+/*Yikari, fichier d'installation en français*/
+/* VERSION 1.5 */
+
+//---------------------------------------
+@1 = ~Yikari, un PNJ moine~
+//---------------------------------------
+@2 = ~ToB requis~
+//---------------------------------------
+@3 = ~La tunique de Yikari~
+
+@4 = ~Cette tunique est la propriété personnelle du moine répondant au nom de Yikari. Elle semble enchantée, mais comme Yikari se montre peu prolixe, vous ne pouvez en savoir plus. Il l'enlève rarement et n'accepte aucune expertise de celle-ci.
+
+PARAMETRES :
+
+Capacité d'équipement : ?
+Poids :  3
+Utilisable par :
+ Yikari~
+
+@5 = ~Ninja-To de Yikari~
+
+@6 = ~Ninja-To de Yikari
+
+C'est le Ninja-To personnel du moine Yikari. Son nom a été gravé à même la lame par celui qui a forgé son épée. Elle est sans aucun doute enchantée, ainsi que le suggère la lueur bleutée qui en émane, mais comme Yikari ne fait aucun commentaire, vous ne pouvez en savoir plus. Yikari ne se sépare jamais de cette arme, donc l'emprunter pour l'examiner plus en détail est impossible. 
+
+PARAMETRES :
+
+Capacité d'équipement : ?
+TAC0 : +? en bonus
+Dégâts : 1D8 +?
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 6
+Utilisable par :
+ Yikari~
+ 
+@7 = ~Cette tunique est la propriété personnelle de Yikari. A l'origine, ce type de vêtement fut confectionné pour les voleurs afin d'optimiser leur concentration et leur maîtrise de soi, mais il convient aussi très bien aux moines. Yikari l'enlève rarement et n'accepte aucune expertise de celle-ci.
+
+PARAMETRES :
+
+Capacités d'équipement : +5% de bonus pour se cacher dans l'ombre, déplacement silencieux et détecter les pièges.
+Poids : 3
+Utilisable par :
+ Yikari~
+ 
+@8 = ~C'est le Ninja-To personnel du moine Yikari. Son nom a été gravé à même la lame par celui qui a forgé son épée. Elle est enchantée, ainsi que le suggère la lueur bleutée qui en émane, autant pour augmenter l'attaque du porteur que pour le protéger. Yikari ne se sépare jamais de cette arme. 
+
+
+PARAMETRES :
+
+Capacités d'équipement : +1 aux jets de sauvegarde, +5 points de vie au porteur
+TAC0 : +2 
+Dégâts : 1D8 +2
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 6
+Utilisable par :
+ Yikari~
+ 
+@9 = ~Furie Céleste~
+
+@10 = ~Katana +3
+Enchanter un katana n'est pas chose aisée. Contrairement à d'autres armes, le katana est déjà une épée quasiment parfaite. Pour l'améliorer, il faut, en général, un sacrifice, comme celui d'un samouraï mourant qui demanderait à un Wu Jen de transférer son esprit combatif dans le katana. Le porteur d'un katana enchanté comme celui-ci doit respecter les coutumes de Kara-Tur et du samouraï qui en fut le propriétaire. Ne pas suivre ces précautions peut avoir des conséquences gravissimes.
+
+PARAMETRES :
+
+Capacités d'équipement : 
+    Eclair une fois par jour
+    Cécité une fois par jour
+
+Capacités de combat : 
+    Tonnerre chaque fois que la cible est touchée (Etourdissement, jet de sauvegarde contre les sorts)
+    Choc électrique quand la cible est touchée (5% de chances d'infliger 20 points de dégâts supplémentaires)
+
+TAC0 : +3
+Dégâts : 1D10 +3
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Utilisable par :
+ Yikari~
+ 
+@11 = ~Furie Céleste +5~
+
+@12 = ~Furie Céleste +5
+Enchanter un katana n'est pas une chose facile. Du moins, c'est ce que <CHARNAME> pensait avant d'essayer la chose. En fait, le plus difficile pour reforger le katana déjà quasi-divin Furie Céleste fut de rassembler la myriade d'ingrédients requis. Furie Céleste a bien servi <CHARNAME> depuis qu'elle a été prise au kensai Koshi, dans le quartier du Temple à Athkatla. Son origine est la suivante :
+
+Il y a bien des années, de violentes tempêtes et des incendies causés par la foudre ravageaient la province administrée par le daimyo Hoshi Katahiroi. Les conseillers du daimyo, des mages réputés, s'aperçurent rapidement, grâce à leurs divinations, que la nature n'était pas responsable, mais qu'il s'agissait là des agissements d'un puissant dragon d'un ordre inconnu. Certains de ces sages suggérèrent que la créature était une abomination, d'autres croyaient qu'elle était née du Chaos Originel, avant la formation de Kara-Tur. Tous les conseillers se mirent d'accord pour l'appeler Furie Céleste.
+
+Mais le daimyo Hoshi ne voulait pas savoir quelle était la nature de ce qui terrorisait sa province, il voulait le détruire. Il ordonna au célèbre Chigatta (un artisan reclus, maître des arts mystiques) de forger une arme qui puisse embrumer l'esprit aussi bien que fendre le corps. La tâche de Chigatta eut comme résultat le plus beau katana imaginable, nommé Furie céleste d'après la bête qu'il devait détruire, et enchanté avec le pouvoir de voler.
+
+Avec cette arme, Hoshi partit à la recherche du fléau de sa province parmi les nuages d'orage. Des cris et des rugissements résonnèrent dans les cieux pendant des jours, et des éclairs de feu incendièrent les nuits. Finalement, Hoshi détruisit le corps du dragon et il piégea son esprit dans son épée, fondant les deux Furies célestes en une seule et imprimant la marque de l'ordre sur le chaos. Pour achever sa victoire, Hoshi demanda à Chigatta de façonner un fourreau dans la peau du dragon et d'ajouter une perle magique sur la garde.
+
+Cependant, le dragon eut sa revanche. Hoshi était talentueux au combat, mais faible de volonté. L'esprit de Furie Céleste prit le contrôle de Hoshi, le contraignant à tuer Chigatta puis à se tuer lui-même. Après cela, le katana disparut (très vraisemblablement, la famille d'Hoshi accablée par la douleur se débarrassa de l'arme traîtresse) et a peut-être changé de main de nombreuses fois depuis.
+
+Furie Céleste est un katana d'une facture admirable -- une lame souple mais inaltérable, aussi aiguisée que celle d'un rasoir, une garde recouverte d'un cuir agréable au toucher, avec une énorme perle attachée à son extrémité. Les idéogrammes magiques 'Furie Céleste' sont inscrites sur la lame, qui émet une pale lueur violette et qui crépite d'électricité lorsqu'on la dégaine. L'épée est rangée dans un fourreau en peau de dragon dont les écailles grises imbriquées étincellent de reflets bleus, violets et argentés.
+
+PARAMETRES :
+
+Capacités d'équipement :
+  Eclair une fois par jour
+  Cécité une fois par jour
+
+Capacités de combat : 
+  Tonnerre chaque fois que la cible est touchée (Etourdissement, jet de sauvegarde contre les sorts)
+  Choc électrique quand la cible est touchée (5% de chances d'infliger 20 points de dégâts supplémentaires)
+
+TAC0 : +5
+Dégâts : 1D10 +5
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 0
+Type de compétence : katana
+Type : arme à 1 main
+Requiert: 6 en force
+Utilisable par:
+ Yikari~
+
+@13 = ~Yikari~
+
+@14 = ~Quand vous questionnez YIKARI, ce moine errant, sur son passé, vous recevez pour toute réponse un regard impassible. Il a bien une langue, vous concluez donc qu'il a fait voeu de silence. A l'évidence, il vient de Kara-Tur ; au-delà de ça, vous n'avez aucune certitude. Il possède un tatouage représentant un dragon vert sur chaque paume. Cela indique sûrement l'ordre auquel il appartient, mais là encore, ce n'est que pure déduction de votre part. Vous ne pouvez que tenter de deviner pourquoi il a quitté Kara-Tur pour la Côte des Epées, puisqu'aux yeux des habitants de ce continent, les occidentaux sont considérés comme des barbares.
+
+Quelle que soit l'histoire de YIKARI, il semble prêt à vous suivre et se montre particulièrement adroit au maniement de l'épée. De plus, sa maîtrise des arts martiaux est impressionnante.~
+
+@15 = ~Après avoir rempli ses engagements envers <CHARNAME>, à la fin de la saga de l'enfant de Bhaal, Yikari reprit son long chemin jusqu'à son monastère. Comme Furie Céleste avait été retrouvée, il fut reçu avec tous les honneurs. Il resta en son foyer pendant de longues années, cherchant à atteindre une illumination plus complète et se remémorant ses jours d'aventure sur la Côte des Epées. Certains de ses vieux compagnons vinrent lui rendre visite et tous furent ébahis par la sérénité, le calme et la paix qu'ils trouvèrent chez lui. Plusieurs y demeurèrent pendant des mois ou des années avant de regagner leurs propres contrées. Sans qu'il le réalise, Yikari acquit une réputation, dans son monastère, pour sa grande sagesse et ses associations avec des êtres étrangers puissants et étranges. Quand le révérend abbé mourut à l'âge de 88 ans, Yikari fut choisi par ses pairs pour lui succéder, bien qu'il n'ait pas personnellement convoité cette place. Pendant les décennies qui suivirent, le monastère, perché dans les montagnes de Kara-Tur, fleurit comme les cerisiers que Yikari chérissait tant.~
+
+//---------------------------------------Soundset
+
+@16 = ~Il n'y a pas de honte à fuir !~ [1AMONK06]
+
+@17 = ~Tout va bien !~
+
+@18 = ~Suis toujours mon exemple, aujourd'hui comme demain.~
+
+@19 = ~Il nous faut écouter notre corps. Nous avons besoin de repos !~
+
+@20 = ~La méditation et la détente élèvent l'esprit. Il serait bon de s'arrêter plus souvent.~
+
+@21 = ~Que ma fureur s'abatte sur mes ennemis !~ [1AMONK02]
+
+@22 = ~Goûte la puissance de mon poing !~ [1AMONK03]
+
+@23 = ~Je vais te trancher le cou !~
+
+@24 = ~Tu n'as plus le temps de te rendre !~
+
+@25 = ~Abandonne et tu auras la vie sauve !~
+
+@26 = ~~ [1AMONK04]
+
+@27 = ~~ [1AMONK05]
+
+@28 = ~Je ne pourrai plus résister longtemps...~
+
+@29 = ~Je trouve le calme de la forêt des plus agréables.~
+
+@30 = ~Les villes génèrent stress et impatience. Il est important de garder son détachement.~
+
+@31 = ~Quelles créatures répugnantes et dangereuses vivent ici, je me le demande...~
+
+@32 = ~C'est une belle journée pour être vivant.~
+
+@33 = ~Les ténèbres nous dissimuleront, mais nos ennemis aussi. Soyons prudents.~
+
+@34 = ~Quels sont tes ordres ?~
+
+@35 = ~Que veux-tu de moi ?~ [BALTHA01]
+
+@36 = ~Que désires-tu ?~
+
+@37 = ~Dirige ma lame vers sa cible.~
+
+@38 = ~Je suis prêt à agir.~
+
+@39 = ~Dois-je agir si précipitamment ?~
+
+@40 = ~Comme tu veux.~
+
+@41 = ~Très bien. Je suivrai précisément tes directives.~
+
+@42 = ~Mes pieds tracent la voie.~
+
+@43 = ~Je t'entends et j'obéis.~
+
+@44 = ~Si tel est ton souhait.~
+
+@45 = ~Cela sera fait !~
+
+@46 = ~Tant qu'on a besoin de moi, je ne me reposerai pas.~
+
+@47 = ~Hmm ? Qu'y a-t-il ?~
+
+@48 = ~Il est à nouveau temps de bouger, oui ?~
+
+@49 = ~KAI !~ [KAI]
+
+@50 = ~Bah ! Je t'aurai !~
+
+@51 = ~Personne ne devrait assister à mon trépas.~
+
+@52 = ~Un changement de tactique serait le bienvenu, ici !~
+
+@53 = ~Je ne suis pas une bête de somme.~
+
+@54 = ~Gah ! Ma méditation est à l'eau !~
+
+//--------------------------------------- Optional Components
+
+@60 = ~Compatibilite avec Item Upgrade SoA~
+
+@61 = ~Shadows Of Amn Item Upgrades doit etre installe.~
+
+@62 = ~Compatibilite avec Item Upgrade ToB~
+
+@63 = ~Throne of Bhaal Item Upgrades doit etre installe.~
+
+@64 = ~Compatibilite avec Kuroisan (de Tactics ou Big Picture)~
+
+@65 = ~Compatibilite avec Kuroisan (de Tactics ou Big Picture) passee.~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["

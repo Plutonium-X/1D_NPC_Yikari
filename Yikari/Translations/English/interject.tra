@@ -1,0 +1,73 @@
+/* ENGLISH TRANSLATION FOR YIKARI; interjections */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPCJ
+
+@1 = ~Aha! At last my quest is at an end! I... speak!~
+
+@2 = ~<CHARNAME>, let me explain myself.~
+
+@3 = ~It would be most unwise to enter into such an ambiguous agreement, <CHARNAME>. It is your choice, however.~
+
+@4 = ~<CHARNAME>, you don't look at all well. Would you like to rest?~
+
+@5 = ~I have never seen anything like that before - <CHARNAME>, you must exercise the strictest self-control if you are to prevent a relapse. Stay strong!~
+
+@6 = ~Yikari, the wise monk; he owes you his allegiance, but he has his own quest and monastery to return to.~
+
+@7 = ~Yikari: have Celestial Fury, return to your monastery. I cannot ask you to come further.~
+
+@8 = ~You have Celestial Fury, Yikari. This would be a good opportunity for you to go home.~
+
+@9 = ~Yikari, will you stay with me until the Irenicus' end?~
+
+@10 = ~I would not leave you at your time of greatest need, <CHARNAME>. I cannot have you perish now, on my honour.~
+
+@11 = ~(The monk nods grimly without meeting your eye.)~
+
+@12 = ~Ah, then is my duty fulfilled at last?~
+
+@13 = ~I never expected my travels to bring me to this place... but now that I am here I would rather leave, quickly.~
+
+@14 = ~You too are a seeker of wisdom? If we but had time to talk...~
+
+@15 = ~If people wish to pursue fulfilment in this cult then why should they not? I do not trust this man and his god, <CHARNAME>.~
+
+@16 = ~<CHARNAME>! This criminal has taken your gold and is distracting us with magical trinkets. There is no honour among thieves and he is not to be trusted.~
+
+@17 = ~Now we are to serve as the front line in his own war? I believe he means to kill off his debt to us at the hands of his enemies.~
+
+@18 = ~We are caught between a gang of thieves on the one side and your organisation on the other, and you are... very... creepy. I for one do not trust either of you.~
+
+@19 = ~You will fall, Irenicus!~
+
+@20 = ~Your tongue may as well be forked. I trust nothing you say.~
+
+@21 = ~You know the city best; we should not presume to make orders. What do you recommend?~
+
+@22 = ~This man is most generous with his money... I would be wary, <CHARNAME>.~
+
+@23 = ~<CHARNAME>, this is most foolish. This foe is way beyond us. Let us just leave this place!~
+
+@24 = ~I have spent months seeking this sword and I am oath-bound to return it to my monastery in Kara-Tur. And now you ask it of me so casually? You are no better than its first thief, and I shall keep it from you with my life!~
+
+@25 = ~Can you make a daikatana out of Celestial Fury?~
+
+@26 = ~Yes, let's do it!~
+
+
+// PC-initiated
+
+@500 = ~Yes? What can I do for you?~
+
+@501 = ~I've decided to let you keep Celestial Fury in your own care.~
+
+@502 = ~Yikari, would you mind letting someone else have Celestial Fury?~
+
+@503 = ~Nothing. Carry on.~
+
+@504 = ~Ah, excellent! I thank you, <CHARNAME>.~
+
+@505 = ~Well... if you wish.~
+
+@506 = ~No, I shall hold on to it. It's safer this way.~

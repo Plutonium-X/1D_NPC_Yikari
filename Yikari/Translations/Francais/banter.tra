@@ -1,0 +1,805 @@
+/* YIKARI, traduction française des Banters */
+/* VERSION 1.5 */
+/* 317 strings*/
+
+// PC_0
+
+@1 = ~Dis-moi, <CHARNAME>, qui sers-tu ?~
+
+@2 = ~Je mets ma foi au service de la vertu.~
+
+@3 = ~Je place ma foi en Lathandre, le Dieu de l'Aube.~
+
+@4 = ~Je sers Heaume.~
+
+@5 = ~Je place ma foi en Talos.~
+
+@6 = ~Je rends hommage au Cosmos.~
+
+@7 = ~Il est de mon devoir de protéger la Nature et l'Harmonie en toutes circonstances.~
+
+@8 = ~Servir ? Je me contente juste d'aider les autres.~
+
+@9 = ~Le plus offrant, bien sûr !~
+
+@10 = ~Personne d'autre que moi.~
+
+@11 = ~Nous ne sommes que les servants de Tiax. Il nous gouverne tous !~
+
+// PC_good
+
+@12 = ~Tout cela est bien joli, mais tu es seul et le monde est gigantesque.~ ~Tout cela est bien joli, mais tu es seule et le monde est gigantesque.~
+
+@13 = ~Je dois faire de mon mieux. Je ne peux simplement ignorer ceux dans le besoin, Yikari.~
+
+@14 = ~Bien, alors quel choix avons-nous ?~
+
+@15 = ~Comment peux-tu être si revêche, Yikari ?~
+
+// PC_good1
+
+@16 = ~Comme tu veux. J'espère, du moins, que tu n'attends pas des remerciements pour tes efforts. Nous ne sommes pas dans un conte de fée, <CHARNAME>.~
+
+// PC_good2
+
+@17 = ~De si futiles gestes de bonté ne sont rien d'autre qu'une brise dans le vent. Il vaut mieux chercher la paix intérieure dans la méditation et la contemplation.~
+
+// PC_god
+
+@18 = ~Hum... tu es de sang divin si je ne m'abuse ? Pourquoi adorer toi-même un dieu, alors ?~
+
+@19 = ~J'ai senti un appel et je fus élu. Mais je n'en demeure pas moins mortel, Yikari.~
+
+@20 = ~Mon futur est incertain. Peut-être les dieux ont-ils choisi de m'aider par simple curiosité ou bienveillance de leur part.~
+
+// PC_god1
+
+@21 = ~Cela est étrange. Je ne pense pas que je pourrais offrir ma faveur divine à l'enfant du Meurtre, mais j'oubliais : les dieux n'ont pas besoin de se justifier.~
+
+// PC_nature
+
+@22 = ~Ces notions m'intriguent. Pourrais-tu m'en dire davantage ?~
+
+@23 = ~La Nature est la force qui gouverne tous les êtres vivants. Elle est bien plus que la simple somme de ses parties, supérieure à tout autre entité vivante, des plantes aux oiseaux. Il n'y a ni cruauté ni bonté dans tout cela. Nous appartenons tous à la Nature, et nous, les druides, la servons.~
+
+@24 = ~Une autre fois, peut-être.~
+
+// PC_nature1
+
+@25 = ~C'est un peu comme le "karma" d'une certaine manière. Je trouve certaines de vos coutumes assez... étrange, cela dit. Mais que pouvais-je attendre d'autre : vous êtes des étrangers après tout.~
+
+// PC_gold
+
+@26 = ~L'or est un bien piètre serviteur et un maître exigeant, <CHARNAME>. Tu ne devrais t'attacher qu'à ce qui en vaut la peine. Tu trouveras la paix intérieure plus facilement dans la méditation et la contemplation.~
+
+@27 = ~(Laisser aller.)~
+
+@28 = ~Tu peux te mettre tes fadaises de "paix intérieure" où je pense, moine !~
+
+// PC_teach
+
+@29 = ~Je pense qu'un peu d'ordre te serait bien profitable. Une fois que nous en aurons fini avec ce magicien, peut-être pourras-tu m'accompagner à mon monastère ? Tu apprendrais à mieux te connaître et à entrevoir la finalité de la vie.~
+
+@30 = ~T'accompagner à Kara-Tur ? Ma vie est ici, sur la Côte des Epées.~
+
+@31 = ~Irenicus est mon seul souci à l'heure qu'il est. Je réfléchirai à ton offre plus tard.~
+
+// PC_teach1
+
+@32 = ~Je respecte ton souhait, bien sûr, <CHARNAME>.~
+
+// PC_tiax
+
+@33 = ~Vraiment ? Nous tous là ? Euh, je ne t'embêterai plus.~
+
+// PC_good3
+
+@261 = ~Dis-moi, <CHARNAME>, pourquoi te consacres-tu aux autres avec autant d'énergie ?~
+
+@262 = ~Aider les autres est la plus épanouissante des actions que j'ai pu accomplir lors de mes périples.~
+
+@263 = ~Si tu aides autrui, tu peux être sûr qu'ils te rendront la pareille !~
+
+@264 = ~Par pure bonté d'âme.~
+
+// PC_good4
+
+@265 = ~Ah, donc tes motivations ne sont pas totalement désintéressées ?~
+
+@266 = ~Je pense qu'aucun acte ne l'est vraiment, Yikari.~
+
+@267 = ~Tout est affaire de donner pour recevoir, dans ce bas-monde.~
+
+@268 = ~Tu ne comprends pas ! J'aide les autres pour leur propre bien.~
+
+// PC_good5
+
+@269 = ~Es-tu vraiment désintéressé ? N'es-tu pas conscient de motivations cachées ?~ ~Es-tu vraiment désintéressée ? N'es-tu pas consciente de motivations cachées ?~
+
+@270 = ~Eh bien, peut-être un peu.~
+
+@271 = ~Pas le moins du monde.~
+
+// PC_good6
+
+@272 = ~Je comprends, maintenant. Tu meurs d'envie d'être un héros pour le plaisir de te mettre en valeur.~ ~Je comprends, maintenant. Tu meurs d'envie d'être une héroïne pour le plaisir de te mettre en valeur.~
+
+@273 = ~Rien de ce que tu convoites, parmi tout ce qui est matériel et honneurs, ne parvient à concurrencer la paix intérieure et la confiance en soi.~
+
+// PC_good7
+
+@274 = ~C'est remarquable. Si je puis me permettre, il me semble plutôt que tu me caches tes véritables motivations... ou que tu te les caches à toi-même.~
+
+// PC_god2
+
+@275 = ~<CHARNAME>, voudrais-tu m'expliquer cette notion de *Religion* ?~
+
+@276 = ~Religion ? C'est un sujet bien vaste pour être expliqué rapidement.~
+
+@277 = ~Pour faire simple, les gens croient en certains dieux dans l'espoir d'une faveur divine de leur part.~
+
+// PC_god3
+
+@278 = ~Alors, peu importe. Oublie ma demande.~
+
+// PC_god4
+
+@279 = ~Mais... les dieux existent pourtant. Pourquoi croire en eux, alors ? C'est comme croire en d'autres personnes.~
+
+@280 = ~Si on ne se signale pas auprès des dieux, alors on ne risque aucun courroux.~
+
+@281 = ~Hérésie ! Ravale tes paroles ou bien je vais purger ton âme de ces pensées maléfiques !~
+
+@282 = ~Rappelle-toi que les dieux sont bien plus puissants que nous, simples mortels. En nous soumettant à leur volonté, nous cherchons à nous aider nous-mêmes.~
+
+@283 = ~C'est une vision bien terre-à-terre, Yikari.~
+
+// PC_god5
+
+@284 = ~J'imagine que la même complexité s'applique au *Meurtre* ?~
+
+@285 = ~C'est un sujet très sensible, Yikari.~
+
+@286 = ~Surtout le Meurtre.~
+
+// PC_god6
+
+@287 = ~Je suppose que la mort a toujours été la méthode choisie par les insatisfaits. Aucun meurtre, sous l'égide de mon Ordre, n'a eu lieu depuis plus de mille ans.~
+
+// PC_god7
+
+@288 = ~Ne souhaiter ni faveur ni disgrâce ?~
+
+// PC_god8
+
+@289 = ~Si les gens se contentaient de ce qu'ils ont, il n'y aurait pas besoin de dieu... ni de tuer.~
+
+// PC_nature2
+
+@290 = ~Alors <CHARNAME>, comment devient-on un druide ?~
+
+@291 = ~Pour devenir un druide à part entière, il faut trouver un bosquet et battre en duel son gardien.~
+
+@292 = ~Tu sais, Yikari, je te préférais silencieux.~
+
+// PC_nature3
+
+@293 = ~Un combat ? Comment celà peut-il juger de la capacité à remplir un tel rôle ?~
+
+@294 = ~C'est la loi de la Nature : seul le plus fort survit. Les druides sont les gardiens de la Nature, après tout.~
+
+@295 = ~Et que voudrais-tu à la place ? Une compétition de jonglerie ?~
+
+// PC_nature4
+
+@296 = ~J'ai bien l'impression que les druides ne valent pas mieux que les bêtes sauvages qu'ils protègent.~
+
+@297 = ~C'est l'idée.~
+
+@298 = ~Ne m'offense pas, moine.~
+
+// PC_nature5
+
+@299 = ~Je ne parviens pas à comprendre comment quelqu'un peut défendre quoi que ce soit en s'avilissant de la sorte.~
+
+// PC_gold1
+
+@300 = ~Mais quelle est donc cette fascination occidentale pour l'or ?~
+
+@301 = ~L'or peut répondre à tous tes désirs. C'est le pouvoir.~
+
+@302 = ~Nous avons besoin d'or pour vivre. Quel est ton problème avec ça ?~
+
+@303 = ~Tu ne vas quand même pas te mettre à causer économie ?~
+
+// PC_gold2
+
+@304 = ~L'or peut-il offrir l'amour ? Le bonheur ? Ou te soustraire à la mort ?~
+
+@305 = ~Pas vraiment.~
+
+// PC_gold3
+
+@306 = ~Tu vois ? L'or est futile et nous détourne de ce qui importe vraiment.~
+
+// PC_gold4
+
+@307 = ~Economie ? De quoi parles-tu ? Ecoute...~
+
+// PC_teach2
+
+@308 = ~<CHARNAME>, te sens-tu perdu en ce monde immense depuis que tu as quitté Château-Suif ?~ ~<CHARNAME>, te sens-tu perdue en ce monde immense depuis que tu as quitté Château-Suif ?~
+
+@309 = ~Ce ne sont pas tes oignons, Yikari.~
+
+@310 = ~J'ai vécu des moments difficiles. Il m'arrive de vouloir rentrer chez moi.~
+
+@311 = ~Pas le moins du monde. Cette vie d'aventures est faite pour moi !~
+
+// PC_teach3
+
+@312 = ~Mais y'a t-il vraiment un lieu qui puisse être ton foyer ? Ne te sens-tu pas en sécurité quelque part ?~
+
+@313 = ~Château-suif était ma maison, et peut-être y retournerai-je un jour.~
+
+@314 = ~Château-suif était ma maison, autrefois, mais désormais je préfère l'aventure.~
+
+// PC_teach4
+
+@315 = ~Le mal du pays est en réalité un besoin viscéral de tranquilité et de stabilité, peu importe le lieu où nous sommes.~
+
+@316 = ~Avec un peu de pratique, tu pourrais te sentir à l'aise et en sûreté où que tu sois.~
+
+// PC_teach5
+
+@317 = ~Vraiment ? Alors j'ai mal saisi. La vie d'aventurier est très exigeante, mais elle fournit sa propre forme de sécurité.~
+
+// Minsc1
+
+@34 = ~Yikari, Bouh n'a jamais vu quelqu'un botter les fesses du mal seulement avec ses pieds ! Tu ressembles plus à un danseur calimshite qu'à un vrai champion de la Justice.~
+
+@35 = ~Mais bien sûr que je donne des coups avec mes pieds.~
+
+@36 = ~Tu pourrais montrer à Bouh comment botter les trains de cette drôle de manière ?~
+
+@37 = ~Minsc, j'ai consacré une vie d'étude et d'apprentissage à maîtriser cet art. Comment pourrais-je jamais l'enseigner à ton hamster ?~
+
+@38 = ~N'insulte pas Bouh ! Bouh est le hamster géant de l'espace miniature le plus intelligent de cette équipe.~
+
+@39 = ~Bien sûr, Minsc. Je vais me préparer à la première leçon de Bouh. Mais, hum, pourrions-nous attendre un moment plus opportun ?~
+
+// Minsc2
+
+@40 = ~Alors Minsc, Bouh est-il paré pour sa première leçon d'arts martiaux ?~
+
+@41 = ~Minsc et Bouh sont prêts.~ [MINSC23]
+
+@42 = ~Bien. Commençons par une technique simple. Debout comme ça. Parfait. Maintenant, lève ta patte droite, là,  et envoie ta patte arrière, comme ça.~
+
+@43 = ~KAI !~ [KAI]
+
+@44 = ~*squick !*~ [GAM_48]
+
+@45 = ~Excellent, Bouh !~
+
+@46 = ~Tu vois ! Bouh est si brillant qu'il effraye Minsc, parfois.~
+
+// Minsc3
+
+@47 = ~Yikari, puisque que tu as montré à Bouh comment botter les fesses avec les pieds et crier, voudrais-tu que Minsc t'enseigne comment botter les postérieurs en bon rôdeur ?~
+
+@48 = ~Ça serait, en effet... instructif, Minsc.~
+
+@49 = ~Tu vois, Bouh, j'étais sûr que ça l'intéresserait. C'est très simple : tu tiens ta grosse épée comme ça. Dès que tu vois le Mal, tu cries et tu fonces !~
+
+@50 = ~Vise les yeux, Bouh, VISE LES YEUX !!  RrraaaAAGHGHH !!!~ [MINSC10]
+
+@51 = ~Tu es un excellent professeur, Minsc, mais... quitte à choisir, je préfère ma méthode.~
+
+@52 = ~Ne dit-on pas "Chacun choisit sa propre voie" ?~
+
+@53 = ~Oui, ce n'est pas l'aspect du bottage des fesses du mal qui est important. Non ! Ce qui compte c'est toute la force du bottage, et tes coups de pieds sont très puissants !~
+
+
+
+// Imoen1
+
+@54 = ~C'est quoi ton problème, Yikari ? Tu as l'air toujours si sérieux.~
+
+@55 = ~Sérieux ? Je suis désolé de t'avoir offensée par mes manières, Imoen.~
+
+@56 = ~C'est exactement ce que je dis ! Vous, les moines, vous n'avez donc pas d'émotions ?~
+
+@57 = ~Bien sûr que si, chère enfant. J'ai simplement appris à les réprimer quand elles sont superflues.~
+
+@58 = ~Sois plus relax, d'accord ?~
+
+// Imoen2 
+
+@59 = ~Hé, Yikari, qu'est-ce que je vois là, sous ton menton...~
+
+@60 = ~Hé ! Ne me touche pas ! Va-t-en !~
+
+@61 = ~Essayais-tu de me faire une blague, jeune fille ?~
+
+@62 = ~Oui ! C'est quoi ton problème ? Lâche-moi, tu me fais mal !~
+
+@63 = ~Je suis désolé. Mais je t'en prie, ne recommence pas.~
+
+@64 = ~Ma foi, tu es musclé. Bouillant également...~
+
+@65 = ~Oh toi - <CHARNAME>, maîtrise les ardeurs de ta soeur !~
+
+// Imoen3_ToB
+
+@66 = ~Yikari, est-ce vrai que tu as des compétences en arts matrimoniaux ?~
+
+@67 = ~Arts martiaux ? Ma foi, oui, j'ai eu un entraînement intensif.~
+
+@68 = ~Ah, excellent. Vois-tu, je ne sais pas comment te demander ça, mais...~
+
+@69 = ~Voudrais-tu faire de moi une femme, ce soir ?~
+
+@70 = ~Imoen, je...~
+
+@71 = ~Je t'en supplie, mon Yikari d'amour ! Toute ma vie j'ai rêvé d'être dans les bras d'un bel homme musclé comme toi ! Prends-moi et fais-moi l'amour !~
+
+@72 = ~Imoen, j'ai fait voeu de célibat ! Je ne peux accepter ta requête !~
+
+@73 = ~Oublie ces voeux stupides, Yikari! Viens à ma couche, ce soir, et demain nous commencerons une vie à deux !~
+
+@74 = ~Imoen, je t'en prie. Tu te méprends !~
+
+@75 = ~Je...~
+
+@76 = ~C'est une blague, hein (soupire) ?~
+
+@77 = ~(ricane)~
+
+// Imoen4_ToB
+
+@78 = ~Une question me taraude, Yikari : que portent les moines sous leur "robe" ?~
+
+@79 = ~Je... je ne crois pas qu'il me faille répondre à cette question, Imoen.~
+
+@80 = ~Allez ! Qu'est-ce que tu caches là ?~
+
+@81 = ~Des dessous en petite dentelle ?~
+
+@82 = ~Imoen !~
+
+@83 = ~D'autres moines ?~
+
+@84 = ~Assez ! Comment oses-tu m'insulter de la sorte ?~
+
+@85 = ~Bien, garde ton secret. Mais je finirai par savoir... un jour ou l'autre.~
+
+
+
+// Aerie1
+
+@86 = ~Comme c'est étrange, Aerie. Tu n'es pas la première Avariel que je croise.~
+
+@87 = ~Pardon ? Vous avez rencontré d'autres membres de mon peuple ? Je vous en supplie, dites-moi tout !~
+
+@88 = ~Je n'étais qu'un apprenti à cette époque, mes souvenirs sont parcellaires. Mais je me souviens qu'ils étaient quatre, et qu'ils étaient d'une beauté incroyable.~
+
+@89 = ~Leurs ailes à la blancheur si limpide étaient majestueuses, et ils avaient plus de grâce qu'une colombe.~
+
+@90 = ~Ils sont venus à mon monastère pour voir un éminent moine de l'Ordre. Je n'ai pu que les apercevoir de la fenêtre de ma chambre.~
+
+@91 = ~(soupire) Je n'ai plus vu un seul de ma race depuis l'enfance...~
+
+@92 = ~J'aurais voulu... mais ça n'a plus d'importance...~
+
+// Aerie2
+
+@93 = ~Tu sais, Aerie, tu aurais bien plus confiance en toi si tu maîtrisais mieux ton corps.~
+
+@94 = ~Que voulez-vous dire ?~
+
+@95 = ~J'ai appris de nombreuses techniques pour allier la sérénité de l'esprit au bien-être du corps. Je ne peux te révéler certains secrets, mais si tu le souhaites, je peux t'enseigner quelques techniques simples.~
+
+@96 = ~Oui... ça me plairait beaucoup.~
+
+@97 = ~Bien, alors écoute...~
+
+
+
+// Nalia1
+
+@98 = ~Pourriez-vous m'éclairer, Yikari ? En tant que moine, vous vous imprégnez des secrets de l'univers, vous gagnez une immense sagesse mais vous ne quittez jamais votre monastère. En quoi cela vous permet-il d'aider qui que ce soit ?~
+
+@99 = ~Nalia, nous ne cherchons point à instuire autrui. C'est un long cheminement intérieur que nous souhaitons entreprendre. Et seul l'enceinte d'un monastère autorise cette recherche introspective, non le monde stressant de l'extérieur.~
+
+@100 = ~Mais vous pourriez essayer d'apporter votre paix aux autres ! Il devrait y avoir des moines errants, comme les prêtres, qui secourent ceux qui croisent leur route.~
+
+@101 = ~Certains moines choisissent de parcourir le monde. J'ai déjà visité des contrées étrangères, même si je n'ai jamais entendu parler d'un moine s'étant aventuré aussi loin à l'ouest.~
+
+@102 = ~Notre mode de vie ne convient pas à tous, et nous ne considérons pas comme un devoir le fait d'instruire les autres, à moins qu'ils ne viennent eux-même auprès de nous pour apprendre.~
+
+@103 = ~Pourquoi vous arrive-t-il d'enseigner alors ?~
+
+@104 = ~Je ne fais que permettre aux autres d'apprendre par eux-mêmes. Je ne peux aller au-delà de leur désir ou de leur potentiel. Mais ne nous attardons plus, continuons.~
+
+// Nalia2
+
+@105 = ~Nalia ? Te confondre avec les ombres est un talent que tu pratiques aussi bien par le biais de la magie que de l'art de l'illusion, n'est-ce pas ?~
+
+@106 = ~En effet, c'est une de mes compétences.~
+
+@107 = ~Alors permets-moi de te confier ce que j'ai vu à Athkatla :~
+
+@108 = ~Si tu demandes de l'or aux autres, tu deviens invisible.~
+
+@109 = ~Mais... mais c'est révoltant ! Je donne toujours aux mendiants !~
+
+@110 = ~Peut-être est-ce pour cela qu'on te remarque autant.~
+
+
+
+// Edwin1
+
+@111 = ~Dis-moi, moine, as-tu déjà croisé plus puissant et plus talentueux magicien que moi, Edwin Odesseiron ?~
+
+@112 = ~J'ai rencontré peu d'arcanistes dans mes périples, je suppose donc qu'il me faut répondre non.~
+
+@113 = ~Bien sûr que tu dois : personne ne peut surpasser mon immense pouvoir (à moins que... non, même pas lui !).~
+
+@114 = ~J'ai du mal à le croire, Edwin.~
+
+@115 = ~Je suis si puissant que je pourrais lancer une boule de feu et ne flamber que ta crinière (oh oui, réduire en une malheureuse friture ce chignon prétentieux).~
+
+@116 = ~Possible, mais en quoi est-ce plus efficace qu'un coup de pied ou une lame bien ajustés ?~
+
+@117 = ~*Ce* magicien ne sera jamais vaincu par ces techniques de simplets (pfff, tous des simiens). Mes immenses talents suffisent à m'assurer la plus grande protection et à réduire en poussière mes rivaux.~
+
+//Edwin2
+
+@118 = ~Edwin ?~
+
+@119 = ~Quoi, le danseur oriental crasseux ? (quand il combat, il n'est plus qu'un nuage de pieds poussiéreux.) Pourquoi viens-tu déranger mes pensées ?~
+
+@120 = ~Pardonne-moi pour cette question, mais pourquoi... parles-tu tout seul ?~
+
+@121 = ~Je ne vois absolument pas de quoi tu veux parler (vraiment) ! Je réfléchis tout haut (mais c'est qu'il a raison en plus !), tout haut, c'est tout !~
+
+@122 = ~Comment oses-tu douter de ma santé mentale ! Recommence à nouveau et je te transforme en une bestiole peu avenante (un hareng fumé, quelle bonne idée) !~
+
+@123 = ~Je n'ai jamais mis en cause ta santé mentale... peut-être ne devrais-je plus rien dire d'ailleurs ?~
+
+@124 = ~Oui ! Cesse de radoter et de médire sur nous (MOI ! Je veux dire moi !). Voilà, arrête de gloser sur mon compte (Ah, c'est mieux) !~
+
+// Edwina1
+
+@125 = ~Arrête de me reluquer, pervers ! Si tu oses encore une fois poser tes yeux sur moi, je te les arrache des orbites !~
+
+@126 = ~Je réfléchissais juste au fait que ta soif de pouvoir avait corrompu ta forme.~
+
+@127 = ~Si tu t'étais contentée de ton pouvoir impressionnant, ce sont tes mots, alors tu n'aurais pas subi cette transformation.~
+
+@128 = ~Ce n'est qu'un petit contretemps dans ma marche vers le pouvoir, et je n'accepterai plus d'être ainsi bafouée par toi (maudit primate) !~
+
+@129 = ~Si tu veux.~
+
+@130 = ~(Malheur, c'est lui qui a le dernier mot en plus.)~
+
+
+
+// Jan1
+
+@131 = ~Yikari, tu savais que mon oncle Johan était déjà allé à Kara-Tur ?~
+
+@132 = ~Ah, vraiment ?~
+
+@133 = ~Il voulait ouvrir de nouveaux marchés pour le commerce du navet, hélas il a rencontré de sacrés pépins. Tout ceci était dû à une caverne souterraine située sous son étal. Elle servait de cache, une fois par mois, à toute une tripotée d'agents immobiliers. Le temps qu'ils finissent par tous se retrouver et partir grâce au Planaire Express, ses clients avaient tellement peur qu’ils firent appel, au bout du compte, à un marchand de légumes certifié pour l’inspecter.~
+
+@134 = ~Je... vois. Continue.~
+
+@135 = ~Eh bien après cela, tout a tourné en eau de navet si tu vois ce que veux dire. C'était tout ce qu'il pouvait faire pour ne pas verser dans le trafic de riz illégal, ce qui me fait penser à cette bien triste histoire, celle de grande-tante Winnie qui avait reçu une sacrée correction pour avoir passé en contrebande une cargaison de cacahuètes à Eauprofonde sans, j’aimerais rajouter, un seul navet non-conforme, ou "navet clandestin" comme nous les appelons dans notre métier. Quant à ce poisson qu'oncle Willy a attrapé...~
+
+@136 = ~Poisson ? Quel poisson ?~
+
+@137 = ~Eh bien, le poisson avec lequel il a fait fortune ! Ça valait son poids en navets car il lui a donné l’idée qui a révolutionné toute l’industrie poissonnière ! L'invention de la canne à pêche, tu vois. Certains ont insisté sur le fait que celle-ci avait été développée dans une ancienne communauté côtière de Féérune mais c’était oncle Willy qui l’avait brevetée, je peux te l’assurer. D'ailleurs, t'ai-je jamais dit que Cousin Archie était inventeur ?~ 
+
+@138 = ~Jan, une année avec toi me rendrait soit fou soit m’apprendrait une patience sans bornes. Cependant, je te serais reconnaissant de bien vouloir te taire un moment ou un coup rapide fera en sorte que ni toi ni moi ne découvrions jamais quelle proposition prévaudra.~
+
+// Jan2
+
+@139 = ~Eh bien, Yikky, j’étais pas en train de te raconter l'histoire de mon cousin qui a presque été mangé par deux ogres à la Porte de Baldur ?~
+
+@140 = ~Jan, je me nomme Yikari. Appelle-moi par ce nom, je t'en prie.~
+
+@141 = ~S’il te plaît, Yikky, on n’interrompt pas un gnome quand il raconte une histoire. Donc, il se trouvait là, tenu par deux ogres et comme tu le sais, mon cousin est capable de saouler les gens avec ses paroles, ce qu'il a essayé de faire en racontant l’histoire de la petite cousine Margen. Cette sacrée Margen, elle essayait d’échapper à la Garde de Padhiver à cette époque, même si elle aurait pu simplifier les choses pour tout le monde si elle s'était expliquée avant. Tu vois, elle n’avait pas "voulu" prendre l’argent, celui-ci était arrivé dans ses coffres par un heureux hasard. La Corporation des Marchands de Légumes n’était pas du tout contente, je te l'assure. Pas contente envers elle, et non envers la garde, tu auras compris.~
+ 
+@142 = ~Jan, qu’essaies-tu vraiment de me dire ? Et je m’appelle Yikari.~
+
+@143 = ~Hum ? Tu veux quelque chose ?~
+
+@144 = ~Je... Laisse tomber (soupire).~
+
+
+
+// Haer'Dalis1
+
+@145 = ~Haer'Dalis, puisque tu es un poète, connais-tu les Haïkus ?~
+
+@146 = ~Haïku, mon hibou ? Qu’est-ce donc ?~
+
+@147 = ~Ah, je suis étonné que tu n'en aies jamais entendu parler.~ 
+
+@148 = ~C’est la forme de poésie que nous avons à Kara-Tur. Trois lignes : cinq, sept, puis cinq syllabes en vers. Mais pas de rimes, à l’inverse de votre poésie.~
+
+@149 = ~Très intéressant... Il est certain que j’essaie de faire tremper mes pieds créatifs dans les nombreuses mares de la grande Poésie.~
+
+@150 = ~Dès que j'aurai écrit un haïku digne de ta montagneuse demeure, cher hibou, je te le donnerai pour ta méditation. Je crois que tu apprécies la beauté des mots, mon cher hibou ?~
+
+@151 = ~En effet, le haïku est une forme commune d'épanouissement de l'âme, car la paix et la connaissance se trouvent aussi hors des limites de notre être, dans les crevasses des montagnes ou les fleurs des arbres.~
+
+@152 = ~Peut-être, qu’après tout, mon hibou sévère a l’âme d’un poète, ou plutôt le "karma".~
+
+
+// Haer'Dalis2
+
+@153 = ~Haer'Dalis... sans vouloir t'offenser, pourquoi m’appelles-tu "cher hibou" quand tu sais très bien que je me nomme Yikari ?~
+
+@154 = ~Mon hibou n’est-il pas content de son nom ? Il ne te convient pas ?~
+
+@155 = ~Mais pourquoi donnes-tu des noms d’oiseaux ou d'animaux à tes compagnons ? Pourquoi cette obsession ?~
+
+@156 = ~Je choisis des noms d’oiseaux car ils démontrent l'éphémère existence de tous les Primaires.~
+
+@157 = ~Les noms que l'on acquiert valent bien plus que ceux hérités à la naissance. C’est Dame Raelis qui m’a enseigné cela.~
+
+@158 = ~Ah, ce n'est donc pas par... snobisme ?~
+
+@159 = ~Quelle suggestion venant de la part de mon cher hibou ! Tu as également l’oeil d’un barde, à ce que je vois.~
+
+
+// Keldorn1
+
+@160 = ~Mon ami, dois-je comprendre que votre Ordre réalise de bonnes oeuvres similaires aux actions du mien, le Coeur Radieux ?~
+
+@161 = ~Sire Keldorn, je pense que vous ne comprenez pas. Même si je viens d’un ordre, celui du Dragon Vert, nous avons peu de choses en commun avec vous, paladins occidentaux.~
+
+@162 = ~Vous essayez de servir votre dieu, Torm, pour aider les autres citadins, mais notre monastère est à l'écart de toute civilisation. Nous cherchons à nous éclairer, et non votre "justice". Aussi, pour nous, les arts martiaux constituent une discipline pour élever notre esprit et affermir notre corps, non un moyen pour molester autrui.~
+
+@163 = ~Voulez-vous dire que votre Ordre reste cloîtré dans son monastère, dans les montagnes, et ignore l’injustice du monde ? J’ai entendu dire que les moines de Kara-Tur sont des sages, mais ceci me semble être une façon d'agir terriblement égoïste !~
+
+@164 = ~Sire Keldorn, je regrette si je vous ai offensé.~
+
+@165 = ~Assez, nous ne devrions pas nous disputer. <CHARNAME> a besoin de mon épée et je dois le rejoindre !~
+
+
+// Keldorn2
+
+@166 =  ~Yikari, ne comprenez-vous pas que votre vie introspective vous laisse ignorant du monde qui se trouve hors des murs de votre monastère ?~
+
+@167 =  ~Keldorn, pourquoi voulez-vous me contrarier ainsi ? Ma vie n’a pas été moins honorable que la vôtre, même si je n'ai pas de titre.~
+
+@168 =  ~Vous ne pouvez pas vous extraire de votre devoir envers les autres en l’ignorant.~
+
+@169 =  ~De quel devoir parlez-vous ?~
+
+@170 =  ~Le devoir d’aider ceux qui sont moins favorisés que nous, par Torm !~
+
+@171 =  ~Je ne connais que le devoir envers mon supérieur et mon maître - actuellement <CHARNAME>. Pourquoi devrais-je me préoccuper d’autres ?~
+
+@172 =  ~J'imagine que vous avez mené une vie dénuée de misère, autrement vous n’agiriez pas d’une manière si dure.~
+ 
+@173 =  ~Je sais seulement agir et penser comme on me l'a enseigné. Si cela vous attriste, Sire Keldorn, je garderai mes paroles pour moi, à l'avenir.~
+
+
+
+
+// Cernd1
+
+@174 =  ~Cernd, pourquoi accepter la lycanthropie de ton plein gré ? La plupart des hommes la considèrent comme une malédiction, mais tu sembles y prendre un grand plaisir.~
+
+@175 =  ~La nature m’a donné le contrôle nécessaire pour en faire un don plutôt qu’une malédiction. La puissance et la force de ma forme de loup-garou me permettent de vaincre ceux qui oseraient porter atteinte à la Nature. Cela me donne le moyen de me battre avec des ennemis plus puissants que moi.~
+
+@176 =  ~Donc c'est le contrôle de cette capacité qui te fait considérer la lycanthropie comme une bénédiction, là où d'autres la voient seulement comme une maladie ?~
+
+@177 =  ~Ce n'est pas aussi simple. C’est aussi une forme plus proche de la Nature, plus pure et moins corrompue. La Nature me permet ainsi d'être en symbiose avec elle.~
+
+@178 =  ~Merci de m’avoir éclairé. Je réfléchirai à ce que tu m'as dit.~
+
+
+// Cernd2
+
+@179 =  ~Cernd, le pouvoir que la Nature t'a confié me semble extrêmement imparfait. Tu perds ton contrôle - quelque chose de si impur est certainement mauvais pour le karma.~
+
+@180 =  ~Yikari, tu ne vois que le côté superficiel de la question. Le pouvoir de changer de forme est une forme de pureté que la Nature m'a offerte pour mes nombreux services.~
+
+@181 = ~Que veux-tu dire ? Au contraire, tu t'éloignes de l'homme. Tu perds toute la maîtrise que tu as acquise après tant de travail.~
+
+@182 = ~Il est vrai que je deviens primitif. Quand je change de forme, je deviens plus proche de la Nature, plus proche de mes racines. C’est un état plus simple et moins obscur. Tu recherches la pureté du corps et de l’âme - qu'est-ce qui peut être plus pur qu’une créature de la Nature ? Finalement, le sens de ma lycanthropie n'est pas loin de ta recherche de la perfection.~
+
+@183 = ~Mais tu perds ton contrôle. Je vois la pertinence de ton propos, mais avec autant de bestialité, comment considérer la pureté dont tu me parles ?~
+
+@184 = ~Je perds de ma sagesse mais je gagne en force et en agilité. Je perds certains éléments mais ils sont remplacés par d’autres. Quand je change de forme, je n’ai pas besoin de connaissances - tout est résolu, tout ce qui compte est l'instant immédiat de la bataille. Dans cet état, je suis plus pur au niveau de certains points que tu ne peux l’être par ta méditation et ton étude !~
+
+@185 = ~Oui... Je comprends comment cela peut être une forme de contrôle, même si c’est étrange. Merci, Cernd.~
+
+
+// Viconia1
+
+@186 = ~Je sens ton regard avide sur moi, abil. Si tu veux jouir de mon corps ce soir, tu n'as qu'à supplier.~
+
+@187 = ~Viconia ?~
+
+@188 = ~Oui, jaluk ?~
+
+@189 = ~Je suis célibataire. Tu peux faire tes avances à d'autres si tu le veux.~
+
+@190 = ~Célibataire ? C'est à dire ?~
+
+@191 = ~J'ai fait voeu d'abstinence. C'est un des sacrifices qu'accepte de faire un moine, pour pouvoir exercer son corps et son esprit.~
+
+@192 = ~Quoi ? - ssa n'taerreth neth'rar (marmonne)...~
+
+// Viconia2
+
+@193 = ~Eh bien, moine, dans cet état de... "célibat", n'es-tu pas frustré quand tu croises un corps désirable ?~
+
+@194 = ~Au début, bien sûr, j'étais tenté, mais depuis, je n'éprouve plus une seule difficulté à réprimer mes... instincts bestiaux.~
+
+@195 = ~Ah ! Ne nie pas l'inévitable. Tu ne peux t'empêcher de me désirer ! Sois maudit, jaluk !~
+
+@196 = ~Viconia, je n'ai aucun désir pour toi. Je t'en prie, maîtrise-toi.~
+
+@197 = ~Si tu as autant de mal à maîtriser tes instincts, on te trouvera une compagnie dans la prochaine ville.~
+
+@198 = ~Ss'a ma'laeret mon'a ruth'gar ! Ssa minit'rae !~
+
+
+
+// Korgan1
+
+@199 = ~T'sais, Yikari, tu t'débrouilles plutôt bien en combat. J'ai jamais vu ce genre de technique, mais si t'as besoin de faire tout ton rituel de charabia avant, alors tu peux t'le fourrer là où y'a pas d'soleil.~
+
+@200 = ~Eh bien, mon brave nain, ma pratique des arts martiaux n'est qu'une discipline parmi d'autres que je maîtrise pour contrôler parfaitement mon esprit et mon corps.~
+
+@201 = ~Crénom, je le savais ! T'as pas plutôt envie de tripailles et de sang, trancher des têtes à coup de hache ? Et puis j'suis pas "ton brave nain".~
+
+@202 = ~Je ne prends aucun plaisir à tuer, même si un geste ou un exercice parfaitement exécuté me comble.~
+
+@203 = ~Bah ! T'es rien d'autre qu'une andouille en drap d'bain !~
+
+
+// Korgan2
+
+@204 = ~Hé le moine, ça te dirait une petite chopine, à notr' prochaine halte dans une taverne ?~
+
+@205 = ~Chopine ? L'alcool conduit à la perte du contrôle de soi, et nous prive de toute inhibition. Je crains de devoir refuser, Korgan.~
+
+@206 = ~Quoi ? T'veux pas un peu de bibine ? Et comment vous prenez du bon temps, vous les moines ?~
+
+@207 = ~Eh bien, je suppose... je ne sais pas. Je n'y ai jamais pensé.~
+
+@208 = ~Parmi tout ce ramassis humain d'idiots, de givrés et d'abrutis, tes satanés moines sont les pires !~
+
+
+/*
+// Anomen1
+
+@209 = ~Yikari ! Je souhaiterais m'entretenir avec vous.~
+
+@210 = ~Bien sûr.~
+
+@211 = ~Que préférez-vous : la seconde ou la troisième édition de Donjons et Dragons ?~
+
+@212 = ~Eh bien, la troisème évidemment. En tant que moine, je peux atteindre un niveau incroyable à une vitesse stupéfiante.~
+
+@213 = ~N'est-ce pas un loupé dans la volonté d'équilibrer les classes ?~
+
+@214 = ~En fait, on peut dire qu'appliquer la même table d'expérience à tous semble excessivement simpliste. A ce niveau, il est vrai que la Troisième Edition pêche.~
+
+@215 = ~Merci, vénérable moine. Nous reparlerons de ce sujet si vous le voulez bien.~
+
+
+// Anomen2
+
+@216 = ~Si nous reprenions notre précédente conversation, Anomen ? Je voudrais ajouter que la gestion du combat et de la CA est plus intuitive dans la Troisième Edition.~
+
+@217 = ~En effet, vous avez raison. La classe d'armure négative a toujours été source de moultes confusions pour l'aventurier néophyte. Cependant, les avis sur Neverwinter Nights montrent bien que ce n'est pas le système de règles qui fait la qualité du jeu.~
+
+@218 = ~Observation pertinente, Anomen. D'ailleurs, si on y regarde de plus près, nous ne suivons pas à la lettre la Seconde Edition. Peut-être qu'à ce niveau, un respect moins absolu des règles rend l'aventure plus intéressante.~
+
+@219 = ~En parlant de cela, ne devrions-nous pas cesser de papoter ?~
+*/
+
+
+// Mazzy1
+
+@220 = ~Petite femme, puis-je te poser une question ?~
+
+@221 = ~Petite femme ? Mon vénérable Yikari, je préfèrerais que vous m'appeliez par mon nom, Mazzy.~
+
+@222 = ~Pardonnez-moi, Mazzy. Je ne voulais pas vous offenser.~
+
+@223 = ~De rien, sire. Que vouliez-vous savoir ?~
+
+@224 = ~Mazzy, je vois que vous êtes une guerrière talentueuse, et vous êtes au service de votre dieu.~
+
+@225 = ~Merci de votre compliment. En effet, je mets tout en oeuvre pour me montrer digne d'Arvoreen.~
+
+@226 = ~Pourtant vous semblez chercher une reconnaissance en tant que paladin de cette "Arvoreen" aux yeux des autres races et des autres croyants.~
+
+@227 = ~C'est vrai. Je voudrais être considérée comme un paladin.~
+
+@228 = ~Ma question est donc : pourquoi ?~
+
+@229 = ~Pardonnez-moi ?~
+
+@230 = ~Pourquoi avez-vous tant besoin de cette reconnaissance ?~
+
+@231 = ~Yikari, peut-être est-ce difficile pour vous de comprendre, mais j'ai bien peur que mon peuple ne soit sous-estimé et déprécié par les grandes puissances de cet univers.~
+
+@232 = ~Nous sommes tout juste bons à être marchands et paysans, et les rares d'entre nous qui choisissent de mener une vie d'aventurier sont immédiatement catalogués comme roublards. Je veux apporter reconnaissance et considération à mon peuple et à la déesse que je sers, pour montrer au monde que nous aussi pouvons lutter pour la justice et pour la vertu.~
+
+@233 = ~Ne voyez-vous pas qu'une telle reconnaissance serait futile ? Seule la perfection de l'être importe et elle ne concerne que soi, personne d'autre.~
+
+@234 = ~Peut-être, vénérable moine. Mais je dois regarder plus loin que ma petite personne et me préoccuper des miens, et en ce monde, la gloire n'est pas une mince affaire.~
+
+
+
+// Yoshimo1
+
+@235 = ~Excuse-moi, es-tu LE fameux Yoshimo ? Le plus craint d'entre tous ?~
+
+@236 = ~C'est exact, cher moine ! Tu vois, <CHARNAME>, je savais qu'on me reconnaîtrait.~
+
+@237 = ~Alors dis-moi, Yoshimo, ces histoires sur le vol de l'Ankh Grimée de Morpok sont-elles vraies ? On m'a dit que tu avais échappé à la surveillance d'une soixantaine de gardes et évité d'être capturé !~
+
+@238 = ~Ah ! Si je me souviens, c'était une vingtaine de plus, et j'ai même eu le temps de séduire quelques jouvencelles en chemin !~
+
+@239 = ~Et as-tu vraiment volé le calice enflammé du fameux trésor d'Athor, le dragon brun ?~
+
+@240 = ~Un sacré exploit ! Ah oui ! Voilà un vrai connaisseur, et de Kara-Tur, rien de moins !~
+
+@241 = ~Alors peut-être pourrais-tu m'éclairer sur un ou deux points. Je me suis renseigné sur tes hauts faits, mais je n'ai trouvé aucune mention de la ville de Morpok. Et je n'ai pas trouvé le nom d'Athor dans les archives référençant les dragons connus.~
+
+@242 = ~<CHARNAME>, tu as vécu à Château-Suif. Peut-être pourrais-tu renseigner notre ami (adresse un clin d'oeil) ?~
+
+@243 = ~(Mentir) Mais bien sûr, la légendaire cité perdue de Morpok ! Et le redoutable dragon Athor, quelle majesté il pouvait dégager ! Et moi qui croyais que tu avais tout étudié, Yikari !~
+
+@244 = ~(Dire la vérité) Il te mène en bateau, Yikari. Ce que tu as entendu a été quelque peu... embelli, probablement.~
+
+@245 = ~Merci, on n'a jamais cessé d'apprendre.~
+
+@246 = ~Ah, quel dommage. Peut-être m'en diras-tu plus toi-même, Yoshimo ?~
+
+@247 = ~Arf, bien sûr, mon ami.~
+
+// Yoshimo2
+
+@248 = ~Mon ami, que sont ces tatouages que tu portes sur les paumes ?~
+
+@249 = ~C'est un dragon vert. J'appartiens à l'Ordre du Dragon Vert et ces tatouages en sont le symbole.~
+
+@250 = ~L'Ordre du Dragon Vert... je ne crois pas en avoir entendu parler.~
+
+@251 = ~Il n'y a aucune raison pour laquelle tu aurais dû, si tu n'es pas un moine, ce qui est le cas. Mon monastère est situé dans une vallée entourée par deux petites montagnes. La vue y est superbe, les fleurs de cerisier tourbillonnent au printemps et les flocons de neige dansent dans l'air en hiver.~
+
+@252 = ~J'aimerais bien visiter ton monastère, s'il est aussi magnifique.~
+
+@253 = ~Quand nous aurons mené à bien cette quête, peut-être pourrons-nous y retourner ensemble.~
+
+
+
+// Valygar1
+
+@254 = ~Si je puis me permettre, Valygar, comment un occidental tel que toi peut posséder un katana d'aussi fine facture ?~
+
+@255 = ~J'ai eu un ancêtre aventureux, Yikari. Comme toi, il a voyagé assez loin. Et il a rapporté cette lame d'un de ses périples. Quand j'étais enfant, je me souviens l'avoir contemplée longuement, accrochée au mur. Quand j'ai eu l'âge de pouvoir la retirer de son fourreau, je l'ai fait.~
+
+@256 = ~Tu n'as pas demandé la permission à tes aînés ?~
+
+@257 = ~Mon tuteur s'est plaint auprès de ma mère ce matin-là, j'étais distrait et borné. Ma chère mère m'envoya donc, sans trop se préoccuper de moi, auprès de mon noble père qui, souffrant d'une de ses crises, était trop fourbu pour s'en charger. Il m'ordonna d'aller jouer ailleurs pendant qu'il s'entretenait avec mon tuteur zélé.~
+
+@258 = ~Un katana est une arme qui doit être portée par une main d'homme - ce n'est pas un jouet pour enfant. Un maître dans son maniement peut tirer la lame de son fourreau et décapiter un adversaire en un seul mouvement.~
+
+@259 = ~Peut-être. Mais les enfants habitués au danger grandissent plus vite que les timorés.~
+
+@260 = ~Non, Valygar, si un homme n'apprend pas l'auto-discipline, il restera à jamais un gamin.~

@@ -1,0 +1,443 @@
+//---------------------------------------
+//--------YIKARI, A MONK NPC MADE BY SHED
+//---------------------------------------
+//----------------------------Version 1.7
+
+BACKUP ~Yikari/backup~
+
+AUTHOR ~shed@spellholdstudios.net~
+
+AUTO_TRA ~Yikari/Translations/%s~
+
+ALLOW_MISSING ~AR0900.bcs~
+ALLOW_MISSING ~solak1.dlg~
+
+ALWAYS
+ ACTION_DEFINE_ARRAY tra_reload BEGIN ZYikari END
+ LAF HANDLE_CHARSETS
+ INT_VAR
+ infer_charset = 1
+ STR_VAR
+ tra_path = EVAL ~%MOD_FOLDER%/Translations~
+ reload_array = tra_reload
+ END
+ END
+
+LANGUAGE ~English~ ~English~ ~Yikari/Translations/English/setup.tra~
+LANGUAGE ~French~ ~Francais~ ~Yikari/Translations/Francais/setup.tra~
+LANGUAGE ~Russian~ ~Russian~ ~Yikari/Translations/Russian/setup.tra~
+LANGUAGE ~Italian~ ~Italian~ ~Yikari/Translations/Italian/setup.tra~
+
+BEGIN @1
+
+REQUIRE_FILE ~Data/25Dialog.bif~ @2 //ToB
+
+AT_INTERACTIVE_EXIT ~VIEW Yikari\README-YIKARI.html~
+
+//---------------------------------------ITEMS
+
+//Silent:
+COPY ~Yikari/Items/sdnpcclk.itm~	~override/sdnpcclk.itm~
+SAY NAME1 @3
+SAY NAME2 @3
+SAY DESC @4
+ 
+COPY ~Yikari/Items/sdnpcsw.itm~	~override/sdnpcsw.itm~
+SAY NAME1 @5
+SAY NAME2 @5
+SAY DESC @6
+
+// Talking:
+COPY ~Yikari/Items/sdnpccl2.itm~	~override/sdnpccl2.itm~
+SAY NAME1 @3
+SAY NAME2 @3
+SAY DESC @7
+ 
+COPY ~Yikari/Items/sdnpcsw2.itm~	~override/sdnpcsw2.itm~
+SAY NAME1 @5
+SAY NAME2 @5
+SAY DESC @8
+
+// Celestial Fury:
+COPY ~Yikari/Items/sdnpcsw3.itm~	~override/sdnpcsw3.itm~
+SAY NAME1 @9
+SAY NAME2 @9
+SAY DESC @10
+ 
+COPY ~Yikari/Items/sdnpcsw4.itm~	~override/sdnpcsw4.itm~
+SAY NAME1 @11
+SAY NAME2 @11
+SAY DESC @12
+
+
+//---------------------------------------PORTRAIT
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN 
+	COPY ~Yikari/Graphics~ ~override~
+END
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN 
+	COPY ~Yikari/Graphics/EE~ ~override~
+END
+
+//---------------------------------------CREATURES
+
+COPY ~Yikari/Creature/sdnpc12.cre~	~override/sdnpc12.cre~
+WRITE_SHORT   0x244 0
+//WRITE_BYTE    0x246 ~%SDNPC%~
+WRITE_BYTE    0x247 0x40
+SAY NAME1 @13
+SAY NAME2 @13
+SAY BIO @14
+SAY MORALE @16
+SAY HAPPY @17
+// SAY UNHAPPY_ANNOYED ~~
+// SAY UNHAPPY_SERIOUS ~~
+// SAY UNHAPPY_BREAKING ~~
+SAY LEADER @18
+SAY TIRED @19
+SAY BORED @20
+SAY BATTLE_CRY1 @21
+SAY BATTLE_CRY2 @22
+SAY BATTLE_CRY3 @23
+SAY BATTLE_CRY4 @24
+SAY BATTLE_CRY5 @25
+SAY DAMAGE @26
+SAY DYING @27
+SAY HURT @28
+SAY AREA_FOREST @29
+SAY AREA_CITY @30
+SAY AREA_DUNGEON @31
+SAY AREA_DAY @31
+SAY AREA_NIGHT @33
+SAY SELECT_COMMON1 @34
+SAY SELECT_COMMON2 @35
+SAY SELECT_COMMON3 @36
+SAY SELECT_COMMON4 @37
+SAY SELECT_COMMON5 @38
+SAY SELECT_COMMON6 @39
+SAY SELECT_ACTION1 @40
+SAY SELECT_ACTION2 @41
+SAY SELECT_ACTION3 @42
+SAY SELECT_ACTION4 @43
+SAY SELECT_ACTION5 @44
+SAY SELECT_ACTION6 @45
+SAY SELECT_ACTION7 @46
+SAY SELECT_RARE1 @47
+SAY SELECT_RARE2 @48
+SAY CRITICAL_HIT @49
+SAY CRITICAL_MISS @50
+SAY HIDDEN_IN_SHADOWS @51
+SAY TARGET_IMMUNE @52
+SAY INVENTORY_FULL @53
+// SAY PICKED_POCKET ~~
+SAY SPELL_DISRUPTED @54
+// SAY SET_A_TRAP ~~
+
+
+COPY ~Yikari/Creature/sdnpc14.cre~	~override/sdnpc14.cre~
+WRITE_SHORT   0x244 0
+// WRITE_BYTE    0x246 ~%SDNPC%~
+WRITE_BYTE    0x247 0x40
+SAY NAME1 @13
+SAY NAME2 @13
+SAY BIO @14
+SAY MORALE @16
+SAY HAPPY @17
+// SAY UNHAPPY_ANNOYED ~~
+// SAY UNHAPPY_SERIOUS ~~
+// SAY UNHAPPY_BREAKING ~~
+SAY LEADER @18
+SAY TIRED @19
+SAY BORED @20
+SAY BATTLE_CRY1 @21
+SAY BATTLE_CRY2 @22
+SAY BATTLE_CRY3 @23
+SAY BATTLE_CRY4 @24
+SAY BATTLE_CRY5 @25
+SAY DAMAGE @26
+SAY DYING @27
+SAY HURT @28
+SAY AREA_FOREST @29
+SAY AREA_CITY @30
+SAY AREA_DUNGEON @31
+SAY AREA_DAY @31
+SAY AREA_NIGHT @33
+SAY SELECT_COMMON1 @34
+SAY SELECT_COMMON2 @35
+SAY SELECT_COMMON3 @36
+SAY SELECT_COMMON4 @37
+SAY SELECT_COMMON5 @38
+SAY SELECT_COMMON6 @39
+SAY SELECT_ACTION1 @40
+SAY SELECT_ACTION2 @41
+SAY SELECT_ACTION3 @42
+SAY SELECT_ACTION4 @43
+SAY SELECT_ACTION5 @44
+SAY SELECT_ACTION6 @45
+SAY SELECT_ACTION7 @46
+SAY SELECT_RARE1 @47
+SAY SELECT_RARE2 @48
+SAY CRITICAL_HIT @49
+SAY CRITICAL_MISS @50
+SAY HIDDEN_IN_SHADOWS @51
+SAY TARGET_IMMUNE @52
+SAY INVENTORY_FULL @53
+// SAY PICKED_POCKET ~~
+SAY SPELL_DISRUPTED @54
+// SAY SET_A_TRAP ~~
+
+COPY ~Yikari/Creature/sdnpc25.cre~	~override/sdnpc25.cre~
+/*
+WRITE_SHORT   0x244 0
+WRITE_BYTE    0x246 ~%SDNPC%~
+WRITE_BYTE    0x247 0x40
+*/
+SAY NAME1 @13
+SAY NAME2 @13
+SAY BIO @14
+SAY MORALE @16
+SAY HAPPY @17
+// SAY UNHAPPY_ANNOYED ~~
+// SAY UNHAPPY_SERIOUS ~~
+// SAY UNHAPPY_BREAKING ~~
+SAY LEADER @18
+SAY TIRED @19
+SAY BORED @20
+SAY BATTLE_CRY1 @21
+SAY BATTLE_CRY2 @22
+SAY BATTLE_CRY3 @23
+SAY BATTLE_CRY4 @24
+SAY BATTLE_CRY5 @25
+SAY DAMAGE @26
+SAY DYING @27
+SAY HURT @28
+SAY AREA_FOREST @29
+SAY AREA_CITY @30
+SAY AREA_DUNGEON @31
+SAY AREA_DAY @31
+SAY AREA_NIGHT @33
+SAY SELECT_COMMON1 @34
+SAY SELECT_COMMON2 @35
+SAY SELECT_COMMON3 @36
+SAY SELECT_COMMON4 @37
+SAY SELECT_COMMON5 @38
+SAY SELECT_COMMON6 @39
+SAY SELECT_ACTION1 @40
+SAY SELECT_ACTION2 @41
+SAY SELECT_ACTION3 @42
+SAY SELECT_ACTION4 @43
+SAY SELECT_ACTION5 @44
+SAY SELECT_ACTION6 @45
+SAY SELECT_ACTION7 @46
+SAY SELECT_RARE1 @47
+SAY SELECT_RARE2 @48
+SAY CRITICAL_HIT @49
+SAY CRITICAL_MISS @50
+SAY HIDDEN_IN_SHADOWS @51
+SAY TARGET_IMMUNE @52
+SAY INVENTORY_FULL @53
+// SAY PICKED_POCKET ~~
+SAY SPELL_DISRUPTED @54
+// SAY SET_A_TRAP ~~
+
+
+
+
+//---------------------------------------SCRIPTS
+
+<<<<<<<< .../Yikari/Scripts/sdnpcfragment.baf
+IF
+  Global("SDNPCexists","AR0900",0)
+  LevelLT(Player1,21)
+THEN
+  RESPONSE #100
+    SetGlobal("SDNPCexists","AR0900",1)
+    CreateCreature("SDNPC12",[2868.1962],6)  // ~Yikari~
+    SetGlobal("SDNPCQuest","GLOBAL",0)
+	Continue()
+END
+
+IF
+  Global("SDNPCexists","AR0900",0)
+  LevelGT(Player1,20)
+THEN
+  RESPONSE #100
+    SetGlobal("SDNPCexists","AR0900",1)
+    CreateCreature("SDNPC14",[2868.1962],6)  // ~Yikari~
+    SetGlobal("SDNPCQuest","GLOBAL",0)
+	Continue()
+END
+>>>>>>>>
+
+<<<<<<<< .../Yikari/Scripts/sdnpcbio.baf
+IF
+  Global("StartEndBios","AR6200",1)
+  InParty("sdnpc")
+  Global("sdnpcBio","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("sdnpcBio","GLOBAL",1)
+    TextScreen("SDNPCND")
+    SmallWait(1)
+    Continue()
+END
+>>>>>>>>
+
+
+COPY_EXISTING ~AR0900.bcs~	~override~
+EXTEND_BOTTOM ~AR0900.bcs~	~.../Yikari/Scripts/sdnpcfragment.baf~
+
+COPY_EXISTING ~AR6200.bcs~	~override~
+EXTEND_BOTTOM ~AR6200.bcs~		~.../Yikari/Scripts/sdnpcbio.baf~
+
+COMPILE ~Yikari/Scripts/sdnpc.baf~
+
+
+//---------------------------------------2DA
+
+APPEND ~pdialog.2da~
+~SDNPC	SDNPCP	SDNPCJ	SDNPC	SDNPC25P	SDNPC25J	SDNPC25		SDNPC25~
+UNLESS ~SDNPC~
+
+APPEND ~interdia.2da~
+  ~SDNPC     BSDNPC      BSDNPC25~
+  UNLESS ~SDNPC~
+  IF ~25FILE~
+
+// Epilogue
+COPY ~Yikari/2da/sdnpcnd.2da~	~override~
+ REPLACE ~999999~ @15
+
+// COPY ~Yikari/2da/cabsdnpc.2da~	~override~
+
+
+//---------------------------------------DIALOGUE
+
+COMPILE ~Yikari/Dialogue/sdnpc.d~
+USING   ~Yikari/Translations/%s/dialogue.tra~
+COMPILE ~Yikari/Dialogue/sdnpcj.d~
+USING ~Yikari/Translations/%s/interject.tra~
+COMPILE ~Yikari/Dialogue/sdnpcp.d~
+USING   ~Yikari/Translations/%s/dialogue.tra~
+COMPILE ~Yikari/Dialogue/bsdnpc.d~
+USING ~Yikari/Translations/%s/banter.tra~
+
+// Tob
+
+COMPILE ~Yikari/Dialogue/sdnpc25.d~
+USING ~Yikari/Translations/%s/dialogue25.tra~
+
+//---------------------------------------WEIMER'S MODS COMPATIBILITY
+
+BEGIN @60
+REQUIRE_COMPONENT ~setup-itemupgrade.tp2~ ~0~ @61
+INSTALL_BY_DEFAULT
+
+// Item Upgrade
+
+<<<<<<<< .../Yikari/Dialogue/c2soa.d
+
+EXTEND_TOP WSMITH01 13 #26
+IF ~PartyHasItem("sdnpcsw3")~
+THEN REPLY @25
+GOTO 84
+END
+
+EXTEND_TOP WSMITH01 84 #4
+    IF ~PartyHasItem("sdnpcsw3") PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999)~
+      THEN REPLY @26
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("misc6m",1)   DestroyItem("misc6m")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4","sdnpc",1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("sdnpcsw3") !PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999) PartyHasItem("plot02i")~
+      THEN REPLY @26
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("plot02i",1)   DestroyItem("plot02i")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4","sdnpc",1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("sdnpcsw3") !PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999) PartyHasItem("plot02j")~
+      THEN REPLY @26
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("plot02j",1)   DestroyItem("plot02j")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4","sdnpc",1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+END
+>>>>>>>>
+COMPILE ~.../Yikari/Dialogue/c2soa.d~
+USING ~Yikari/Translations/%s/interject.tra~
+
+BEGIN @62
+REQUIRE_COMPONENT ~setup-itemupgrade.tp2~ ~1~ @63
+INSTALL_BY_DEFAULT
+
+<<<<<<<< .../Yikari/Dialogue/c2tob.d
+EXTEND_TOP BOTSMITH 4 #27
+IF ~PartyHasItem("sdnpcsw3")~
+THEN REPLY @25
+GOTO 203
+END
+
+EXTEND_TOP BOTSMITH 204 #4
+    IF ~PartyHasItem("sdnpcsw3") PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999)~
+      THEN REPLY @26 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("misc6m",1)   DestroyItem("misc6m")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4","Yikari",1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("sdnpcsw3") !PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999) PartyHasItem("plot02i")~
+      THEN REPLY @26 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("plot02i",1)   DestroyItem("plot02i")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4",Player1,1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+    IF ~PartyHasItem("sdnpcsw3") !PartyHasItem("misc6m") PartyHasItem("wand07")
+        PartyGoldGT(19999) PartyHasItem("plot02j")~
+      THEN REPLY @26 
+      DO ~TakePartyGold(20000)      DestroyGold(20000)
+          TakePartyItemNum("sdnpcsw3",1)   DestroyItem("sdnpcsw3")
+          TakePartyItemNum("plot02j",1)   DestroyItem("plot02j")
+          TakePartyItemNum("wand07",1)   DestroyItem("wand07")
+          GiveItemCreate("sdnpcsw4","Yikari",1,1,1)
+          CreateVisualEffect("spcrtwpn",[401.348])~ EXIT
+END
+>>>>>>>>
+COMPILE ~.../Yikari/Dialogue/c2tob.d~
+USING ~Yikari/Translations/%s/interject.tra~
+
+
+BEGIN @64
+// Kuroisan (Tactics or Big Picture)
+REQUIRE_FILE ~override/solak1.dlg~ @65
+
+<<<<<<<< Yikari/Dialogue/kuroisan.d
+EXTEND_BOTTOM SOLAK1 4
+IF ~OR(2) PartyHasItem("sdnpcsw3") PartyHasItem("sdnpcsw4")~ /* Celestial Fury (+5), Yikari */
+    THEN GOTO 6
+END
+
+INTERJECT SOLAK1 6 mine
+== SDNPCJ IF ~IsValidForPartyDialogue("SDNPC") !HasItemEquiped("sdnpcclk",Myself)~ THEN @24
+END SOLAK1 9
+>>>>>>>>
+
+ACTION_IF FILE_EXISTS	~override/solak1.dlg~
+ THEN
+ BEGIN COMPILE ~Yikari/Dialogue/kuroisan.d~
+ USING ~Yikari/Translations/%s/interject.tra~
+END

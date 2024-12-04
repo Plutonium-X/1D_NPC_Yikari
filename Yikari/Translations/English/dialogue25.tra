@@ -1,0 +1,44 @@
+/* ENGLISH TRANSLATION FOR YIKARI, ToB */
+/* VERSION 1.5 */
+
+/////////////////////////////////////////
+////////////////*SDNPC25*////////////////
+/////////////////////////////////////////
+
+// Appear in Pocket Plane
+
+@1 = ~...~
+
+@2 = ~<CHARNAME>, what is this place? Have you further need of me?~
+
+@3 = ~Yes, Yikari. Will you travel with me?~
+
+@4 = ~Wait in my pocket plane awhile. I will come back for you.~
+
+@5 = ~If you will. For a time I will travel with you.~
+
+@6 = ~I have duties to perform, and you would have me languish here?~
+
+@7 = ~Very well. I shall show patience.~
+
+@8 = ~Well, <CHARNAME>, do you still have need of me?~
+
+
+/////////////////////////////////////////
+///////////////*SDNPC25P*////////////////
+/////////////////////////////////////////
+
+// Leave Party
+
+@9 = ~I need your company, Yikari. Let us be off!~
+
+@10 = ~Wait here. I'll be back soon.~
+
+
+/////////////////////////////////////////
+////////////////*FATESP*/////////////////
+/////////////////////////////////////////
+
+// Fate Spirit
+
+@11 = ~Bring me Yikari, the monk.~

@@ -1,0 +1,44 @@
+/* ITALIAN TRANSLATION FOR YIKARI, ToB */
+/* VERSION 1.5 */
+
+/////////////////////////////////////////
+////////////////*SDNPC25*////////////////
+/////////////////////////////////////////
+
+// Appear in Pocket Plane
+
+@1 = ~...~
+
+@2 = ~<CHARNAME>, che razza di posto é questo? Hai ancora bisogno di me?~
+
+@3 = ~Si, Yikari. Ti va di viaggiare con me?~
+
+@4 = ~Aspetta qui, al mio piano extradimensionale ancora per un pò. Tornerò a prenderti.~
+
+@5 = ~Si, se lo desideri. Viaggerò con te.~
+
+@6 = ~Ho dei doveri a cui devo adempiere e tu vorresti che languissi qui?~
+
+@7 = ~Va bene. Avrò pazienza.~
+
+@8 = ~Allora, <CHARNAME>, hai ancora bisogno di me?~
+
+
+/////////////////////////////////////////
+///////////////*SDNPC25P*////////////////
+/////////////////////////////////////////
+
+// Leave Party
+
+@9 = ~Ho bisogno di te, Yikari. Andiamo!~
+
+@10 = ~Aspetta qui. Tornerò presto.~
+
+
+/////////////////////////////////////////
+////////////////*FATESP*/////////////////
+/////////////////////////////////////////
+
+// Fate Spirit
+
+@11 = ~Portami Yikari, il monaco.~

@@ -1,0 +1,147 @@
+/* FRENCH TRANSLATION FOR YIKARI ; main, leaving dialogue */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPC
+
+@1 = ~(Un moine se tient devant vous.)~
+
+@2 = ~Salutations, cher ami. Que puis-je faire pour vous ?~
+
+@3 = ~Qui êtes-vous ?~
+
+@4 = ~Encore un de ces fanatiques qui veut me convertir à son culte ? Décampe, dévot !~
+
+@5 = ~(Le moine reste silencieux mais vous fixe toujours.)~
+
+@6 = ~Bien le bonjour, je m'appelle <CHARNAME>. Qui êtes-vous ?~
+
+@7 = ~Tu as perdu ta langue, moine ?~
+
+@8 = ~Bien, si c'est ainsi. Hum, je me retire. A bientôt, peut-être...~
+
+@9 = ~(Le moine montre les inscriptions gravées sur son Ninja-To. Vous lisez "Yikari".)~
+
+@10 = ~Tu n'es pas très causant, Yikari, c'est bien ça ?~
+
+@11 = ~Bien, que puis-je pour toi, Yikari ?~
+
+@12 = ~Eh bien, ravi de t'avoir connu, Yikari, mais j'ai d'autres gobelins à fouetter. Chasser le dragon, tu vois, ce genre de choses.~
+
+@13 = ~(Le moine hausse les épaules. Il fait de grands gestes, mais ne parvient pas à mettre en forme ce qu'il veut vous dire et finit par laisser tomber.)~
+
+@14 = ~Que puis-je pour toi, donc ?~
+
+@15 = ~Excuse-moi, mais je n'ai pas saisi ton nom.~
+
+@16 = ~Je ne connais rien au langage des signes. Dégage.~
+
+@17 = ~(Le moine Yikari pointe son doigt en direction de la cour gardée, à l'est du District du Temple. Puis il vous désigne vous et son Ninja-To.)~
+
+@18 = ~Tu veux que je me rende là-bas ? Dans ce solide bâtiment, qui est sûrement rempli de gardes ?~
+
+@19 = ~Quelles que soient tes affaires là-bas, je n'ai rien à y faire. Je m'en vais.~
+
+@20 = ~Hum... Laisse-moi deviner. Ca n'aurait pas quelque chose à voir avec une certaine lame, n'est-ce pas ? Juste une hypothèse au hasard...~
+
+@21 = ~(Le moine acquièsce et vous adresse un sourire éclatant.)~
+
+@22 = ~D'accord, allons botter quelques trains !~
+
+@23 = ~J'espère que ça en vaut la peine, Yikari.~
+
+@24 = ~Je ne peux pas accomplir toutes les missions qui se présentent comme ça, ne sais-tu donc pas qui JE suis? Peut-être une autre fois.~
+
+// A présent, il sait parler
+
+//Biographie
+@1000 = ~YIKARI est un moine de l'Ordre du Dragon Vert de Kara-Tur. Il a été envoyé jusqu'ici par son maître, dans une quête visant à récupérer le katana Furie Céleste des mains d'un kensaï nommé Koshi. Il a fait voeu de silence jusqu'à ce qu'il ait réussi sa mission. Il a accepté de voyager avec vous pour un temps, mais il devra, tôt ou tard, prendre la lame et rentrer à Kara-Tur. D'ici là, cependant, il met ses compétences au katana et au combat à mains nues au service de votre cause.~
+
+@25 = ~Excuse-moi, est-ce que cette épée est... Furie Céleste ? Et toi, tu serais <CHARNAME> ?~
+
+@26 = ~Oui, en effet. Qui es-tu et que veux-tu ?~
+
+@27 = ~C'est possible... Et tu es...?~
+
+@28 = ~<CHARNAME> ? Désolé, tu fais erreur. Et cette lame n'est... qu'un vulgaire katana. Au revoir.~ ~<CHARNAME> ? Désolée, tu fais erreur. Et cette lame n'est... qu'un vulgaire katana. Au revoir.~
+
+@29 = ~Je m'appelle Yikari, un moine de l'Ordre du Dragon Vert, et mon maître vénéré m'a confié une mission d'une importance primordiale.~
+
+@30 = ~Il y a bien longtemps, un kensai-voleur du nom de Koshi a commis le sacrilège de voler la plus estimable relique de notre monastère, la Furie Céleste.~
+
+@31 = ~Une fois ce forfait découvert, le prélat m'a choisi pour récupérer cette épée. J'ai fait voeu de silence jusqu'au jour où je la retrouverais, pour pouvoir concentrer tout mon esprit sur cette tâche.~
+
+@32 = ~J'ai passé des mois à chercher le voleur, et je l'ai finalement traqué jusqu'ici, à Athkatla.~
+
+@33 = ~A présent, je te le demande : permets-moi d'accomplir ma mission en ce lieu et de récupérer l'épée. Le butin gagné dans le sang est aussi insignifiant que la poussière sur laquelle nos pieds se posent.~
+
+@34 = ~Bien, discutons un peu. On peut sûrement se mettre d'accord.~
+
+@35 = ~Je te rends Furie Céleste avec joie. Prends-la et retourne à Kara-Tur.~
+
+@36 = ~Si tu veux cette épée, en garde ! Défends-toi !~
+
+@37 = ~Parfait, je serais heureux de parvenir à une solution.~
+
+@38 = ~J'aimerais bien te laisser cette épée, crois-moi, mais j'en ai grand besoin. Puis-je la garder jusqu'à avoir triomphé d'Irénicus, l'exilé ?~
+
+@39 = ~N'ai-je pas la plus grande légitimité à posséder cette épée, puisque le triomphe en combat est la forme la plus ancienne du droit à la propriété ?~
+
+@40 = ~Puisque nous voulons tous les deux cette épée, pourquoi ne pas faire équipe quelque temps et ainsi la partager ?~
+
+@41 = ~Si j'accepte de te remettre cette lame, il me faut une récompense en échange.~
+
+@42 = ~J'ai changé d'avis. Prends l'épée et va t'en.~
+
+@43 = ~Eh bien, restons sur nos positions. Prépare-toi à périr !~
+
+@44 = ~Hum... je devrais t'accompagner afin de récupérer l'épée une fois que tu auras accompli ta quête. Nous voyagerons donc ensemble ? Je souhaiterais, par ailleurs, garder Furie Céleste.~
+
+@45 = ~Je ne peux pas prendre le risque que tu m'abandonnes, Yikari. Il te faudra te contenter de ton arme.~
+
+@46 = ~Bien. Voilà l'épée et bienvenue dans mon groupe.~
+
+@47 = ~Je n'ai pas vraiment de place pour toi dans mon groupe, à l'heure actuelle.~
+
+@48 = ~Je ne veux pas voyager à tes côtés. Prends Furie Céleste et va-t-en !~
+
+@49 = ~Si c'était mon épée, j'accepterais de te la prêter, mais ce n'est pas moi qui décide. On m'a confié la mission de retrouver Furie Céleste.~
+
+@50 = ~Mon Ordre t'offrira de l'or si tu y tiens.~
+
+@51 = ~Au diable tes babioles ! Cette épée est à MOI !~
+
+@52 = ~J'accepte ton or en échange de Furie Céleste.~
+
+@53 = ~J'ai une meilleure idée. Pourquoi ne pas te joindre à nous, nous partagerons l'épée comme ça ?~
+
+@54 = ~J'ai changé d'avis. Voici l'épée.~
+
+@55 = ~Ainsi soit-il ! Je retournerai chez moi triomphant !~
+
+@56 = ~Je te remercie ! Je prends maintenant congé.~
+
+//---------------------------------------SDNPCP
+
+@57 = ~(Yikari fronce un sourcil et dodeline de la tête.)~
+
+@58 = ~Attends-moi un peu ici, Yikari.~
+
+@59 = ~Yikari, retourne au District du Temple. Je t'y retrouverai plus tard.~
+
+@60 = ~En formation, Yikari.~
+
+@61 = ~J'ai fait le serment de rapporter Furie Céleste à mon monastère.~
+
+@62 = ~Je te donne Furie Céleste avec joie. Prends-la et retourne chez toi, à Kara-Tur.~
+
+@63 = ~J'ai encore besoin de toi à mes côtés, Yikari. Ne voudrais-tu pas rester à mes côtés un peu plus longtemps ?~
+
+@64 = ~Yikari, retourne au Discrict du Temple, je t'y retrouverai sous peu.~
+
+@65 = ~Avise-toi de prendre cette lame et je me verrai dans l'obligation de t'éliminer !~
+
+@66 = ~Je suis désolé, <CHARNAME>. J'ai attendu trop longtemps.~ 
+
+@67 = ~Argh ! Tu as osé t'emparer de Furie Céleste derrière mon dos ! Ignoble traître, <CHARNAME> !~
+
+@68 = ~Salutations, <CHARNAME>. Partirons-nous ensemble ? Ou peut-être en as-tu fini avec moi et puis-je rentrer chez moi ?~

@@ -1,0 +1,226 @@
+/* Yikari Setup English*/
+/* VERSION 1.7 */
+
+//---------------------------------------
+@1 = ~Yikari, a monk NPC~
+//---------------------------------------
+@2 = ~ToB required~
+//---------------------------------------
+@3 = ~Yikari's Robe~
+
+@4 = ~This robe is the personal property of the monk Yikari. It seems to be enchanted, but since Yikari is not very talkative he cannot tell you more about this garment. He rarely takes it off, and will not permit further examination of it.
+
+STATISTICS:
+
+Equipped Ability: ?
+Weight:  3
+Usable By:
+ Yikari~
+
+@5 = ~Yikari's Ninja-To~
+
+@6 = ~Yikari's Ninja-To
+This is the personal Ninja-To of the monk Yikari. Along the blade is his name carved by the smith that made it for him. Doubtless it is enchanted, as can be told from its blue glow, but since Yikari is not very talkative he cannot tell you more about his sword. This weapon rarely leaves his hand and never leaves his side, so taking it for further examination is impossible. 
+
+STATISTICS
+
+Equipped Ability: ?
+THAC0: +? bonus
+Damage:  1D8 +?
+Damage type:  slashing
+Weight:  5
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength
+Usable By:
+ Yikari~
+ 
+@7 = ~This robe is the personal property of the monk Yikari. The cloak was originally made for thieves to enhance their awareness and self-control, but it is well suited to the monk. Yikari rarely takes it off, and will not permit further examination of it.
+
+STATISTICS:
+
+Equipped Ability: +5 to Hide in Shadows, Move Silently, Detect Traps
+Weight:  3
+Usable By:
+ Yikari~
+ 
+@8 = ~This is the personal Ninja-To of the monk Yikari. Along the blade is his name carved by the smith that made it for him. It is enchanted, as can be told from its blue glow, both as an offensive weapon but also to help the wielder. This weapon rarely leaves Yikari's hand and never leaves his side.
+
+STATISTICS
+
+Equipped Ability: +1 Saves, +5 to maximum hit points
+THAC0: +2 bonus
+Damage:  1D8 +2
+Damage type:  slashing
+Weight:  5
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength
+Usable By:
+ Yikari~
+ 
+@9 = ~Celestial Fury~
+
+@10 = ~Katana +3
+To enchant a katana is no simple process.  Unlike conventional weapons, the katana is already a near-perfect fighting sword.  To improve it usually requires a sacrifice, perhaps a dying samurai might beg a Wu Jen to infuse his fighting spirit into the spirit of the katana.  The wielder of an enchanted katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle.  Not doing so could drastically change one's luck for the worse.
+
+STATISTICS:
+
+Equipped Abilities: 
+    Lightning Strike:  Once per day
+    Blindness:  Once per day
+Combat Abilities: 
+    Booming Thunder whenever the sword strikes an opponent
+    (Stun, Save vs. Spell)
+    Shocking Blow chance when sword strikes an opponent
+    (5% chance of 20 additional electrical damage)
+THAC0: +3 bonus
+Damage:  1D10 +3
+Damage type:  slashing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+Usable By:
+ Yikari~
+ 
+@11 = ~Celestial Fury +5~
+
+@12 = ~Celestial Fury +5
+To enchant a katana is no simple process. At least, that's what <CHARNAME> thought before <PRO_HESHE> first had it attempted on <PRO_HISHER> behalf. In reality, the most difficult part of reforging the already-godlike katana known as Celestial Fury was gathering the myriad ingredients required. Celestial Fury has served <CHARNAME> well since it was taken from the kensai Koshi in the Temple District of Athkatla. Its provenance before that point is as follows:
+
+Many years ago, fierce tempests and fires ignited by lightning ravished the province administered by daimyo Hoshi Katahiroi. The daimyo's advisers, all respected wizards, soon divined that Nature was not to blame, but a powerful dragon of an unknown order. Some of the wise men suggested that the creature was an abomination; others believed that it was born of Primal Chaos before Kara-Tur was formed. All the advisers agreed to name it Celestial Fury.
+
+Yet Daimyo Hoshi did not want to categorize the scourge of his province; he wanted to destroy it. He commissioned the famed Chigatta (a reclusive artisan, master of mystic arts), to construct a weapon that might sunder the dragon's spirit as well as cleave its scaled body. Chigatta's labors resulted in the finest katana imaginable, dubbed Celestial Fury after the beast it was fashioned to destroy, and enchanted with the power of flight.
+
+With this weapon, Hoshi sought his province's bane among the storm clouds. Shouts and roars resounded through the heavens for days, and forked fire lit up the nights. At long last, Hoshi destroyed the dragon's body and trapped its spirit within his sword, merging the two Celestial Furies and impressing order over chaos. To finalize his victory, Hoshi had Chigatta fashion a scabbard from the dragon's hide and embed its magic pearl in the hilt.
+
+Yet the dragon had its revenge. Hoshi was skilled in battle but weak of will. Celestial Fury's spirit took control of Hoshi, forcing him to slay Chigatta and then slay himself. The katana subsequently disappeared (most likely, Hoshi's grieving family discarded the traitorous weapon) and has perhaps changed many hands in the years since.
+
+Celestial Fury is a katana of excellent construction -- a flexible but unbreakable blade of razor sharpness, a hilt covered with comfortable leather, and a huge pearl fixed at its end. The magical characters for Celestial Fury are inscribed on the blade, which glows pale violet and crackles with electricity when drawn. The sword is sheathed in a scabbard of dragon hide, the slate-grey scales of which constantly flash with streaks of silver, blue, and violet.
+
+STATISTICS: 
+
+Equipped Abilities:
+ Lightning Strike: Once per day
+ Blindness: Once per day
+Combat Abilities:
+ Booming Thunder whenever the sword strikes an opponent
+ (Stun, Save vs. Spell) 
+ Shocking Blow chance when sword strikes an opponent
+ (5% chance of 20 additional electrical damage)
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage type: slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 6 Strength
+Usable By:
+ Yikari~
+
+@13 = ~Yikari~
+
+@14 = ~When you ask this wandering monk, YIKARI, about his past all you get is a blank stare. He still has his tongue, so you can only assume he has taken a vow of silence. He is clearly from Kara-Tur, though you cannot be sure beyond that. He has a tattoo of a green dragon on each palm. Possibly this denotes what order he is from, but there is no real way to tell. You can only speculate why he was left Kara-Tur for the Sword Coast, since the Westerners are considered to be barbaric by those of Kara-Tur.
+
+Whatever YIKARI's history, he seems quite willing to follow your leadership and he can wield a blade with a high level of skill. Added to which, his command of martial arts is highly impressive.~
+
+@15 = ~His service to <CHARNAME> done at the end of the Bhaalspawn saga, Yikari made his slow way back to his monastery. Now that Celestial Fury was recovered, he was treated with great honour. He remained at his home for many years, seeking further enlightenment, and reminiscing on his days of adventuring on the Sword Coast. Some of his old companions visited him and were amazed by the serenity, calm, and peace they found there. Many stayed for months or years before retiring to their homelands. Although he did not know it, Yikari gained a reputation in the monastery for his great wisdom and associations with strange and powerful foreign beings. When his Reverend Abbot passed away at the age of eighty-eight, Yikari was chosen by his peers to succeed him, though he did not seek the position himself. For decades, the monastery, nestled in the Kara-Turan mountains, blossomed much like the cherry trees that Yikari was so fond of.~
+
+//---------------------------------------Soundset
+
+@16 = ~There is no disgrace in retreat!~ [1AMONK06]
+
+@17 = ~All is well!~
+
+@18 = ~Follow my example, now and always.~
+
+@19 = ~We must take care of our bodies - we should rest!~
+
+@20 = ~Meditation and repose improve the mind. We should simply stand more often.~
+
+@21 = ~ My fury is unleashed upon my enemies!~ [1AMONK02]
+
+@22 = ~ Taste the pain of my fist!~ [1AMONK03]
+
+@23 = ~My blade shall sever your neck!~
+
+@24 = ~You are running out of time for surrender!~
+
+@25 = ~Cease your resistance and you may live yet!~
+
+@26 = ~~ [1AMONK04]
+
+@27 = ~~ [1AMONK05]
+
+@28 = ~I can only keep off the pain so long...~
+
+@29 = ~I find the calm of the forest pleasing.~
+
+@30 = ~Cities breed stress and impatience. It is important to keep a sense of detachment.~
+
+@31 = ~What foul and dangerous creatures live here, I wonder?~
+
+@32 = ~It is a good day to be alive.~
+
+@33 = ~Darkness will conceal us, but our enemies also. Let us be wary.~
+
+@34 = ~What is your order?~
+
+@35 = ~ What would you have of me?~ [BALTHA01]
+
+@36 = ~Your will?~
+
+@37 = ~Direct my blade to its mark.~
+
+@38 = ~I am ready to act.~
+
+@39 = ~Must I act so hastily?~
+
+@40 = ~As you say.~
+
+@41 = ~Very well. I shall follow your directions precisely.~
+
+@42 = ~My feet mark the path.~
+
+@43 = ~I hear you and obey.~
+
+@44 = ~If that is your wish.~
+
+@45 = ~It shall be done!~
+
+@46 = ~While there is need of me, I shall not rest.~
+
+@47 = ~Hmm? What is it?~
+
+@48 = ~It is time to move once again, yes?~
+
+@49 = ~KAI!~ [KAI]
+
+@50 = ~Bah! I'll have you yet.~
+
+@51 = ~None shall see my passing.~
+
+@52 = ~A change of tactics needed, here!~
+
+@53 = ~I am no beast of burden.~
+
+@54 = ~Gah - ruined my meditation!~
+
+//--------------------------------------- Optional Components
+
+@60 = ~Compatibility with Item Upgrade SoA~
+
+@61 = ~You must have Shadows Of Amn Item Upgrades installed.~
+
+@62 = ~Compatibility with Item Upgrade ToB~
+
+@63 = ~You must have Throne of Bhaal Item Upgrades installed.~
+
+@64 = ~Compatibility with Kuroisan (from Tactics or Big Picture)~
+
+@65 = ~Compatibility with Kuroisan (from Tactics or Big Picture) skipped.~

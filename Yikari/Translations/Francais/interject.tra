@@ -1,0 +1,73 @@
+/* FRENCH TRANSLATION FOR YIKARI; interjections */
+/* VERSION 1.5 */
+
+//---------------------------------------SDNPCJ
+
+@1 = ~Aha ! Enfin, ma quête touche à son terme ! Je... parle !~
+
+@2 = ~<CHARNAME>, laisse-moi m'expliquer.~
+
+@3 = ~Il serait des plus hasardeux de nous engager dans un accord aussi ambigu, <CHARNAME>. C'est ton choix, cependant.~
+
+@4 = ~<CHARNAME>, tu me sembles au plus mal. Veux-tu te reposer ?~
+
+@5 = ~Je n'ai jamais rien vu de tel auparavant. <CHARNAME>, tu dois faire preuve du plus strict contrôle de toi-même si tu veux prévenir une rechute. Sois fort !~ ~Je n'ai jamais rien vu de tel auparavant. <CHARNAME>, tu dois faire preuve du plus strict contrôle de toi-même si tu veux prévenir une rechute. Sois forte !~
+
+@6 = ~Yikari, le moine sage, il vous doit son allégeance, mais il a sa propre quête et son monastère auxquels il doit retourner.~
+
+@7 = ~Yikari : prends Furie Céleste et rentre à ton monastère. Je ne peux pas te demander d'aller plus loin.~
+
+@8 = ~Prends Furie Céleste, Yikari. Ce serait une bonne occasion pour toi de rentrer dans ta patrie.~
+
+@9 = ~Yikari, resteras-tu avec moi jusqu'à la défaite d'Irenicus ?~
+
+@10 = ~Je ne te quitterai pas alors que tu es dans le plus grand besoin, <CHARNAME>. Je ne peux pas te laisser périr maintenant, sur mon honneur.~
+
+@11 = ~(Le moine acquiesce sinistrement, sans croiser votre regard.)~
+
+@12 = ~Ah, mon devoir est-il rempli, enfin ?~
+
+@13 = ~Je n'ai jamais imaginé que mes voyages me mèneraient en cet endroit... Mais maintenant que je suis ici, je serais pour partir, et vite.~
+
+@14 = ~Etes-vous aussi en quête de sagesse ? Si seulement nous avions le temps de bavarder...~
+
+@15 = ~Si les gens désirent atteindre leur complétude dans ce culte, pourquoi ne le pourraient-ils pas ? Je ne fais pas confiance à cet homme et son dieu, <CHARNAME>.~
+
+@16 = ~<CHARNAME> ! Ce criminel a pris ton or et nous distrait avec ces breloques magiques. Il n'y a pas d'honneur parmi les voleurs et nous ne devons pas lui faire confiance.~
+
+@17 = ~A présent, nous devons nous battre en première ligne, dans sa guerre à lui ? Je pense qu'il a l'intention d'annuler sa dette envers nous en nous livrant aux armes de ses ennemis.~
+
+@18 = ~Nous sommes pris entre un gang de voleurs d'un côté et votre organisation de l'autre, et vous êtes... très... effrayante. En ce qui me concerne, je ne fais confiance à aucun d'entre vous.~
+
+@19 = ~Tu échoueras, Irenicus !~
+
+@20 = ~Ta langue pourrait tout aussi bien être fourchue. Je ne crois pas un mot de ce que tu dis.~
+
+@21 = ~Vous connaissez mieux la ville que nous ; nous ne devrions pas présumer de faire des plans. Que recommandez-vous ?~
+
+@22 = ~Cet homme est des plus généreux avec son argent... Je me méfierais, <CHARNAME>.~
+
+@23 = ~<CHARNAME>, ceci est des plus ridicules. Cette crapule est au-dessus de nos forces. Quittons cet endroit !~
+
+@24 = ~J'ai passé des mois à rechercher cette épée et je suis lié par ma promesse de la ramener à mon monastère, en Kara-Tur. Et à présent, tu me la demandes avec un tel flegme ? Tu ne vaux pas mieux qu'un vulgaire voleur et je la garderai avec ma propre vie !~
+
+@25 = ~Pouvez-vous faire un daikatana de Furie Céleste ?~
+
+@26 = ~Oui, faisons-le !~
+
+
+// PC-initiated
+
+@500 = ~Oui ? Que puis-je pour toi ?~
+
+@501 = ~J'ai décidé de te laisser garder Furie Céleste.~
+
+@502 = ~Yikari, cela te dérangerait-il de laisser quelqu'un d'autre utiliser Furie Céleste ?~
+
+@503 = ~Rien. Continue comme ça.~
+
+@504 = ~Ah, excellent ! Je te remercie, <CHARNAME>.~
+
+@505 = ~Bien... si tu le désires.~
+
+@506 = ~Non, je ne la lâcherai pas. Elle est plus en sécurité comme ça.~
