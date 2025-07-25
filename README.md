@@ -3,6 +3,6 @@
 Il vous attend dans le quartier des temples.
 
 Particularités :
-- Caractéristiques : force 16, dextérité 18, endurance 14, intelligence 8, sagesse 18, charisme 4.
+- Caractéristiques : FOR 16, DEX 18, CON 14, INT 8, SAG 18, CHA 4.
 - Il a très peu de dialogues et aucun banters.
 - Il commence avec 900K xps.
