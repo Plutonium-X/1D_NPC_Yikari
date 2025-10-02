@@ -13,7 +13,7 @@ ALLOW_MISSING ~AR0900.bcs~
 ALLOW_MISSING ~solak1.dlg~
 
 ALWAYS
- ACTION_DEFINE_ARRAY tra_reload BEGIN ZYikari END
+ ACTION_DEFINE_ARRAY tra_reload BEGIN setup END
  LAF HANDLE_CHARSETS
  INT_VAR
  infer_charset = 1
@@ -441,3 +441,4 @@ ACTION_IF FILE_EXISTS	~override/solak1.dlg~
  BEGIN COMPILE ~Yikari/Dialogue/kuroisan.d~
  USING ~Yikari/Translations/%s/interject.tra~
 END
+
